@@ -31,6 +31,16 @@ This dataset is an attempt to fix the input side of that problem.
 
 ## What is here
 
+![Data acquisition and screening, from initial query to the modelling dataset](figures/data_flow.png)
+
+*How the two released datasets were assembled. The principal flow runs down the
+left; exclusions branch to the right with the count and the reason. 11,119
+candidate URLs and 618 candidate datasets reduce to four harmonised streams of
+8,457 records, then to the 7,273 that pass the zero-air-voids admissibility
+check — released as `compaction_parameters_full.csv` — and finally to the 2,854
+complete in every input the model needs, released as
+`compaction_parameters.csv`. This is Figure 1 of the accompanying paper.*
+
 | File | Records | Content |
 |---|---|---|
 | `data/compaction_parameters.csv` | 2,854 | **The modelling dataset.** Complete in PI, fines, energy and Gs; no imputation of soil properties. This is the file the accompanying paper reports on. |
@@ -192,6 +202,32 @@ Regenerate either artefact from the released data at any time:
 python scripts/train_model.py        # models/model_mdd.json, model_omc.json
 python scripts/build_source_pfn.py   # models/source_pfn.csv
 ```
+
+### What drives the prediction
+
+![Shapley attributions for both released models](figures/shap_attribution.png)
+
+*What each input contributes, for both models this repository ships. (a, d)
+XGBoost, exact TreeSHAP over all 2,854 records; (b, e) TabPFN, permutation
+estimate over 400; (c, f) mean |SHAP| as a share of the total. In the beeswarm
+panels each point is one record, placed by its SHAP value and coloured by the
+feature's own value, low to high. This is Figure 5 of the accompanying paper.*
+
+Fines content and the liquid limit carry roughly two-thirds of the attribution
+on both targets, and the two models agree on the ordering at a Spearman
+coefficient of 0.96 — which is the useful thing to know before trusting a
+prediction: **a soil whose fines content or liquid limit you are unsure of is a
+soil the prediction is unsure of.** Specific gravity and the plasticity index
+contribute little, so the 2.68 default for `--gs` costs less than it might
+appear.
+
+`ln(energy)` looks negligible in the attribution share, and is not. Only 101
+records of 2,854, 3.5 %, sit at a non-standard compactive effort, so a mean
+absolute Shapley value over the whole dataset is dominated by the 96.5 % where
+the input does not vary. Panels (a) and (d) show what it does when it does
+vary — the yellow points, high energy, sit clearly apart from the rest. Compare
+the two efforts on one soil and the difference is 0.17 Mg/m³ and 3.5 % water
+content, which is not a small effect.
 
 ## Fit your own model
 
