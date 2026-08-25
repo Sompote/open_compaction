@@ -1,0 +1,7 @@
+name,LL,PL,PI,fines_pct,sand_pct,test_standard,Gs
+lean clay,38,20,,72,25,SP,2.70
+lean clay at modified effort,38,20,,72,25,MP,2.70
+fat clay,64,31,,72,24,SP,2.50
+silty sand,22,17,,18,62,SP,2.66
+non-plastic sandy silt,,,0,55,44,SP,2.68
+sandy soil with no sieve analysis,,,0,12,,SP,2.68

@@ -1,0 +1,6 @@
+# What predict.py, scripts/train_model.py and scripts/validate_corpus.py need.
+# The versions the released weights were produced and tested under; the weights
+# are in XGBoost's portable JSON format and load under any 2.x.
+numpy==1.26.4
+pandas==2.2.2
+xgboost==2.1.4

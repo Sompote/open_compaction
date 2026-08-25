@@ -1,0 +1,379 @@
+tier,source_key,doi,citation,licence,kind,records,records_retained,curves
+1,openaccess-pdf,various,Extracted from open-access journal articles; see per-record DOIs.,per-article open access,articles,1921,1469,0
+1,zenodo:10.5281/zenodo.14251190,10.5281/zenodo.14251190,"Soranzo, C. (2024). Dataset for 'Machine learning predictions on an extensive geotechnical database'. Zenodo.",CC BY 4.0,dataset,448,446,0
+1,figshare:10.6084/m9.figshare.28681187,10.6084/m9.figshare.28681187,Geotechnical Properties of Soils: A Dataset from Literature (2025). figshare. Extracted from Gunaydin et al. (2009).,CC BY 4.0,dataset,475,417,0
+1,zenodo:10.5281/zenodo.20737270,10.5281/zenodo.20737270,Dataset: Geotechnical Properties and California Bearing Ratio (CBR) Values of Soil Samples from Turkiye (2026). Zenodo.,CC BY 4.0,dataset,361,311,0
+1,figshare:10.6084/m9.figshare.32955851,10.6084/m9.figshare.32955851,Compaction Characteristics Data (2026). figshare. 206 samples across four Proctor energy levels.,CC BY 4.0,dataset,206,194,0
+1,openaccess-pdf,10.9790/1684-11552635,"Compaction Characterization and Model Prediction of Stabilized UnyegheResidual Soils, AkwaIbomState Nigeria",open access,article,92,79,0
+1,openaccess-pdf,10.18687/laccei2016.1.1.029,Correlation Equations of CBR with Index Properties of Soil in the City of Piura,open access,article,74,71,0
+1,openaccess-pdf,10.17265/2159-5348/2023.01.004,Contributions of Engineering Geological Properties of Subgrade Soils to Premature Failure of Major Highways in Southwest,open access,article,50,50,0
+1,openaccess-pdf,10.33736/jcest.3977.2021,"EXPERIMENTAL STUDY OF STABILIZATION OF EXPANSIVE SOIL USING THE MIXTURE OF MARBLE DUST, RICE HUSK ASH AND CEMENT FOR SUB",open access,article,34,34,0
+1,openaccess-pdf,10.15623/ijret.2014.0310019,LABORATORY COMPACTION STUDY OF FLY ASH MIXED WITH LIME PRECIPITATED ELECTROPLATING WASTE SLUDGE,open access,article,32,30,0
+1,openaccess-pdf,10.11159/icgre23.141,Effect of Soil Type on Efficiency of Recycled Jute Fibre as Natural Reinforcing Material,open access,article,27,27,0
+1,openaccess-pdf,10.21203/rs.3.rs-3852586/v1,Laboratory study on use of lime and waste materials in improving geotechnical properties of clay,open access,article,22,22,0
+1,openaccess-pdf,10.22214/ijraset.2022.41839,Evaluation of the Effect of RAP and Lime on Geotechnical Properties of Clayey Soil,open access,article,21,21,0
+1,openaccess-pdf,10.1515/sspjce-2017-0002,Stabilizing Lateritic Soil Using Terrasil Solution,open access,article,24,20,0
+1,openaccess-pdf,10.9790/1684-0240106,Effect of Lime on the Compaction and Strength Behaviour of Red Earth treated with Mine tailings,open access,article,20,20,0
+1,openaccess-pdf,10.35180/gse-2022-0068,"Integrated Resistivity, Index, and Strength Characteristics of Subgrade Soils: Implication for Highway Pavement Failure",open access,article,20,18,0
+1,openaccess-pdf,10.4314/njt.v38i3.9,Stabilization of lateritic soils with asphalt- emulsion,open access,article,18,18,0
+1,openaccess-pdf,10.3846/jcem.2019.9687,THE INFLUENCE OF FINE FRACTIONS CONTENT IN NON-COHESIVE SOILS ON THEIR COMPACTIBILITY AND THE CBR VALUE,open access,article,17,17,0
+1,zenodo:10.5281/zenodo.19242689,10.5281/zenodo.19242689,Dataset of UCS and CBR Results for Biopolymer-Stabilised Soils (2026). Zenodo. Untreated parent soils only.,CC BY 4.0,dataset,17,16,0
+1,openaccess-pdf,10.14525/jjce.v17i4.07,Behavior of Natural Pozzolana-Lime-stabilized Clayey Soils Artificially Contaminated by Sulfates,open access,article,16,16,0
+1,openaccess-pdf,10.3389/fmech.2024.1461374,Research on the factors affecting the compressive strength of rubber powder modified cement-stabilized crushed stone bas,open access,article,16,16,0
+1,openaccess-pdf,10.9790/1684-11512630,Establishing Relationship between Cbr Value and Physical Properties of Soil,open access,article,20,16,0
+1,openaccess-pdf,10.38124/ijisrt/ijisrt24jun753,Geotechnical Assessment of Selected Lateritic Soils in Southwest Nigeria for Road Construction and Development of Artifi,open access,article,22,15,0
+1,openaccess-pdf,10.31142/ijtsrd7041,Assessment of the Engineering Properties and Suitability of Some Tropical Soils as Backfill Materials,open access,article,20,14,0
+1,openaccess-pdf,10.22214/ijraset.2025.68629,Experimental Study on the Influence of Polypropylene Fibres on the Strength and Swelling Behaviour of Lime Stabilized Cl,open access,article,13,13,0
+1,openaccess-pdf,10.46604/ijeti.2021.7086,Effect of Zeolite on the Compaction Properties and California Bearing Ratio (CBR) of Cemented Sand,open access,article,13,13,0
+1,openaccess-pdf,10.22214/ijraset.2021.35737,The Improvement of Engineering Properties of Expansive Soil using Waste Glass Powder (WGP) and Quick Lime,open access,article,12,12,0
+1,openaccess-pdf,10.24237/asj.01.03.618b,Application of Atterberg Limits for Predicting Soil Compaction Characteristics,open access,article,12,12,0
+1,openaccess-pdf,10.31695/ijerat.2019.3459,Influence of Granite Cutting Waste Addition on the Geotechnical Parameters of Cohesive Soil,open access,article,12,12,0
+1,openaccess-pdf,10.3389/fenvs.2023.1073718,"Geotechnical aspects of alluvial soils at different depths under sodium chloride action in Najran region, Saudi Arabia:",open access,article,12,12,0
+1,openaccess-pdf,10.9790/1684-635662,Effect of Sodium Sulphate on the Index Properties and Compaction Behaviour of Neyveli Fly Ash- Shedi Soil Mixtures,open access,article,13,12,0
+1,openaccess-pdf,10.20428/jst.v30i12.3253,Leveraging Artificial Intelligence And Statistical Methods For Evaluating Geotechnical Properties Of Lateritic Soil In R,open access,article,11,11,0
+1,openaccess-pdf,10.51201/jusst/22/0146,"Stabilization Of Expansive Soil By Using A-1-B Soil In Subgrade Materials A Study In Boditi Town, Wolaita Zone, Southern",open access,article,11,11,0
+1,openaccess-pdf,10.21203/rs.3.rs-8834561/v1,Integrated Geotechnical and Geomorphological Implication of Urbanization on Slope Stability in the Vicinity of GRA Hills,open access,article,10,10,0
+1,openaccess-pdf,10.30574/gjeta.2021.6.2.0012,"Investigation on the performance of ‘Fino’ materials to stabilize expansive soil: A case study in Yeka Sub-City, Addis A",open access,article,12,10,0
+1,openaccess-pdf,10.22214/ijraset.2017.2076,Improvement of CBR and Compaction Characteristics of Black Cotton Soil Using Lime and Blast Furnace Slag,open access,article,9,9,0
+1,openaccess-pdf,10.22214/ijraset.2018.3552,Compaction and CBR Characteristics of Expansive Soil Stabilised with Fly Ash and Coir Waste,open access,article,9,9,0
+1,openaccess-pdf,10.2991/aeece-15.2015.42,Experimental Study of Compaction Effects and Proportion of Expansive Soil Improved by Ionic Soil Stabilizer,open access,article,9,9,0
+1,openaccess-pdf,10.5251/ajsir.2011.2.2.323.331,Geotechnical properties of lateritic soil stabilized with sugarcane straw ash,open access,article,15,9,0
+1,openaccess-pdf,10.54660/.ijmrge.2025.6.2.469-481,Laboratory Investigation of Weak Subgrade Soil Modified with Cement Kiln Dust and Quarry Stone Dust as Stabilizer,open access,article,10,9,0
+1,openaccess-pdf,10.64252/9ptvfp33,Sustainable Solutions for Clayey Soil Improvement: A Study of Steel Slag and Glass Powder,open access,article,18,9,0
+1,openaccess-pdf,10.71097/ijsat.v16.i2.5824,STABILIZATION OF BLACK COTTON SOIL BY USING WASTE MATERIAL FOR ROAD CONSTRUCTION,open access,article,9,9,0
+1,openaccess-pdf,10.1051/e3sconf/20183401012,Compaction and Plasticity Comparative Behaviour of Soft Clay Treated with Coarse and Fine Sizes of Ceramic Tiles,open access,article,8,8,0
+1,openaccess-pdf,10.21203/rs.3.rs-5316819/v1,Evaluating the Improvement of Expansive Soil Properties by Blending with Red Soils,open access,article,8,8,0
+1,openaccess-pdf,10.21660/2013.8.5307,Lime Stabilization of Tropical Soils From Sudan For Road Construction,open access,article,8,8,0
+1,openaccess-pdf,10.22214/ijraset.2021.33490,A Study of Black Cotton Soil Stabilization with Lime and Waste Plastic Bottle Stirrup,open access,article,8,8,0
+1,openaccess-pdf,10.22214/ijraset.2022.42335,Stabilization of Soil Using Fly Ash,open access,article,10,8,0
+1,openaccess-pdf,10.22214/ijraset.2023.53897,A Systematic Study to Strengthen the Sub Grade of the Pavement by Stabilization of Expansive Soil with Molasses and Jute,open access,article,8,8,0
+1,openaccess-pdf,10.22214/ijraset.2023.54309,Comparison on the Behaviour of Bamboo and Polypropylene Fibre in Soil Stabilization,open access,article,8,8,0
+1,openaccess-pdf,10.22214/ijraset.2025.66257,Stabilization of Soil Using Sodium Alginate Biopolymer,open access,article,10,8,0
+1,openaccess-pdf,10.2478/sjce-2026-0001,Coupled Effect of Hydrated Lime and Glass Waste Fine Stabilizers on the Mechanical Properties of Lateritic Soil,open access,article,8,8,0
+1,openaccess-pdf,10.33552/ctcse.2019.04.000582,Compaction and Strength Behaviour of an Expansive Clay Modified by Lime and Quarry Dust,open access,article,10,8,0
+1,openaccess-pdf,10.34218/ijciet.11.11.2020.005,EVALUATION OF SALT WATER EFFECT ON THE PHYSICAL PROPERTIES AND COMPACTION CHARACTERISTICS OF EXPANSIVE SOIL,open access,article,8,8,0
+1,openaccess-pdf,10.35629/5252-0701145164,Lateritic Soil Stabilization using Granular Materials; a Comparative Study,open access,article,11,8,0
+1,openaccess-pdf,10.48048/wjst.2021.22792,Estimation of Optimum Moisture Content and Maximum Dry Unit Weight of Fine-Grained Soils using Numerical Methods,open access,article,23,8,0
+1,openaccess-pdf,10.52562/injoes.2024.833,Engineering Evaluation of Laterite Derived from Sedimentary Rock for Use as Subgrade and Sub-Base Materials,open access,article,11,8,0
+1,openaccess-pdf,10.11113/jurnalteknologi.v84.17115,THE EFFECT OF UTILIZING SILICA FUME AND EGGSHELL ASH ON THE GEOTECHNICAL PROPERTIES OF SOFT KAOLIN CLAY,open access,article,7,7,0
+1,openaccess-pdf,10.1139/cgj-2014-0317,Interpretation of the loading–wetting behaviour of compacted soils within the “MPK” framework. Part II: Dynamic compacti,open access,article,7,7,0
+1,openaccess-pdf,10.14419/ijpr.v8i2.30769,"Geotechnical investigation of road pavement failure along arigidi / oke - agbe akoko, southwestern, Nigeria",open access,article,16,7,0
+1,openaccess-pdf,10.22214/ijraset.2019.4422,Improvement of Pavement Soil Subgrade by using Cement Kiln Dust,open access,article,8,7,0
+1,openaccess-pdf,10.22214/ijraset.2023.54376,Stabilization of Soil Using Concrete Slush Waste and Polyester Fibres,open access,article,7,7,0
+1,openaccess-pdf,10.22214/ijraset.2025.75383,A Study on the Performance of Expansive Soil Treated with Copper Slag and Geopolymer for Pavement Subgrade,open access,article,8,7,0
+1,openaccess-pdf,10.22214/ijraset.2025.75528,Stabilization of Expansive Soil Using Bagasse Ash and Geopolymers to Suit as Subgrade in Flexible Pavement,open access,article,9,7,0
+1,openaccess-pdf,10.2478/sggw-2018-0008,Analysis of compaction parameters of the exemplary non-cohesive soil determined by Proctor methods and vibrating table t,open access,article,8,7,0
+1,openaccess-pdf,10.29007/8gxd,Corelation Between Particle Fines and Laboratory CBR From Heavy Compaction Characteristics,open access,article,7,7,0
+1,openaccess-pdf,10.36348/sjet.2025.v10i12.003,"Geotechnical, Physicochemical, and Mineralogical Characterization of Locally Available Plaster Soils in Awka Municipalit",open access,article,7,7,0
+1,openaccess-pdf,10.1051/matecconf/201816201006,Stabilization of soft clayey soils with sawdust ashes,open access,article,8,6,0
+1,openaccess-pdf,10.1051/matecconf/201825001008,Engineering behaviour of stabilized laterite and kaolin using lignin,open access,article,6,6,0
+1,openaccess-pdf,10.12962/jifam.v6i0.19894,Subgrade Stabilization with Ca (OH)2 Lime to Improve the Physical and Mechanical Properties of Soil (Case Study: The Nat,open access,article,6,6,0
+1,openaccess-pdf,10.14256/jce.3337.2021,Effect of soil stabilization on design of conventional and perpetual pavement in India,open access,article,6,6,0
+1,openaccess-pdf,10.14311/ap.2023.63.0260,The effects of potassium permanganate on the geotechnical properties of soils,open access,article,8,6,0
+1,openaccess-pdf,10.14445/22315381/ijett-v71i5p211,A comparative Investigation on Cement Stabilized Lateritic Soil Admixed with Sugarcane Bagasse Ash and Saw Dust Ash for,open access,article,9,6,0
+1,openaccess-pdf,10.15623/ijret.2016.0526017,DYNAMIC SLOPE STABILITY ANALYSIS OF BLACK COTTON SOIL STABILIZED WITH GGBS AND LIME,open access,article,8,6,0
+1,openaccess-pdf,10.22214/ijraset.2018.1167,Soil Stabilisation using Lime,open access,article,6,6,0
+1,openaccess-pdf,10.22214/ijraset.2019.12020,Stabilization of Soil with Calcium Chloride using Gypsum,open access,article,6,6,0
+1,openaccess-pdf,10.22214/ijraset.2023.55796,Stabilization of Soil Using Guar Gum Biopolymer,open access,article,6,6,0
+1,openaccess-pdf,10.22214/ijraset.2025.69125,Soil Stabilization by Using Fly Ash,open access,article,7,6,0
+1,openaccess-pdf,10.3208/jgssp.v09.cpeg116,Effects of fines content and maximum particle size on mechanical properties and saturated hydraulic conductivity of recy,open access,article,6,6,0
+1,openaccess-pdf,10.32628/ijsrce261047,Engineering Behavior of Black Cotton Soil Treated with Industrial Waste Materials for Road Subgrade Construction,open access,article,7,6,0
+1,openaccess-pdf,10.33736/jcest.5337.2023,COMPACTION CHARACTERISTICS AND WORKABILITY OF THE LATERITIC SOIL-IRON ORE TAILINGS IN PAVEMENT CONSTRUCTION,open access,article,6,6,0
+1,openaccess-pdf,10.35940/ijeat.b3989.029320,Bearing Capacity of Soft Marine Soil Stabilization with Cockel Shell Powder CSP,open access,article,6,6,0
+1,openaccess-pdf,10.4236/gep.2024.125020,Characterization and Geotechnical Classification of Soils and Lateritic Gravelly Materials along the Songololo-Lufu Road,open access,article,12,6,0
+1,openaccess-pdf,10.59324/ejsmt.2025.1(6).19,Engineering Properties of Soft Clay Stabilized with Sodium Bentonite for Road Subgrade Improvement,open access,article,6,6,0
+1,openaccess-pdf,10.7176/cer/12-2-09,Mechanical Properties of Lateritic Soil Reinforced with Geotextile Material (Nigerian Bagco Super Sack),open access,article,14,6,0
+1,openaccess-pdf,10.7763/ijesd.2013.v4.359,Compaction Characteristics of Lateritic Soil-Stabilized Municipal Solid Waste Bottom Sediment,open access,article,6,6,0
+1,openaccess-pdf,10.11159/ijci.2019.002,The Advances in Understanding Erodibility of Soils in Unpaved Roads,open access,article,6,5,0
+1,openaccess-pdf,10.14525/jjce.v19i1.10,Experimental Study on the Stabilization of Expansive Soil with Blended Fine Cinder Gravel and Waste Marble Dust: A Case,open access,article,5,5,0
+1,openaccess-pdf,10.15623/ijret.2014.0304078,EFFECT OF BURNT BRICK DUST ON ENGINEERING PROPERTIES ON EXPANSIVE SOIL,open access,article,5,5,0
+1,openaccess-pdf,10.15623/ijret.2015.0402023,ESTABLISHING RELATIONSHIP BETWEEN CBR WITH DIFFERENT SOIL PROPERTIES,open access,article,6,5,0
+1,openaccess-pdf,10.21203/rs.3.rs-2934133/v1,Assessment of the geotechnical properties and suitability of borrow pit soil for construction works in some Niger Delta,open access,article,7,5,0
+1,openaccess-pdf,10.21203/rs.3.rs-8356915/v1,Circular Utilization of Locally Sourced Aggregates for Stabilizing Expansive Soils: Experimental Evidence from Ambo Sand,open access,article,5,5,0
+1,openaccess-pdf,10.2174/0118741495425562250913184632,Mechanical and Behavioral Properties of Boubyan Clay Mixed with Styrofoam,open access,article,5,5,0
+1,openaccess-pdf,10.22214/ijraset.2018.3497,Geotechnical Characteristic of Compacted Sand Bentonite Mixture,open access,article,7,5,0
+1,openaccess-pdf,10.22214/ijraset.2025.75407,An Experimental Study on Efficiency of Copper Slag and Zycobond in Improving Properties of Expansive Soil,open access,article,6,5,0
+1,openaccess-pdf,10.22214/ijraset.2026.77536,Mechanical and Microstructural Behaviour of Expansive Soil Stabilised with Granite Waste Powder,open access,article,5,5,0
+1,openaccess-pdf,10.22271/allresearch.2025.v11.i8d.12801,Geotechnical evaluation of pond ash and bentonite mixes for highway engineering applications,open access,article,5,5,0
+1,openaccess-pdf,10.2478/sgem-2023-0001,Effect of Specimens’ Height to Diameter Ratio on Unconfined Compressive Strength of Cohesive Soil,open access,article,5,5,0
+1,openaccess-pdf,10.29196/jubpas.v32i3.5399,Impact of Crude Oil Pollution on some Geotechnical Characteristics of North Rumaila Soils in the Southern Iraqi Province,open access,article,6,5,0
+1,openaccess-pdf,10.31026/j.eng.2017.06.03,Stabilization of Clay Soil Using Tyre Ash,open access,article,5,5,0
+1,openaccess-pdf,10.3389/feart.2023.1266219,"Subgrade engineering characteristics of basaltic residual soil in Leizhou Peninsula, southern China",open access,article,6,5,0
+1,openaccess-pdf,10.34218/ijbesisis_01_01_002,SUSTAINABLE STABILIZATION OF RESIDUAL SOILS IN LANDSLIDE-PRONE TERRAINS USING LIGNOCELLULOSIC BAMBOO FIBERS: A MECHANIST,open access,article,5,5,0
+1,openaccess-pdf,10.36959/742/253,"A Geotechnical Approach in Sustainable Reuse of Mine Tailings: A Case Study of Tin Mine Sites in Plateau State, Nigeria",open access,article,5,5,0
+1,openaccess-pdf,10.38124/ijisrt20jul851,Stabilization of CL and CI Soil Using Sugarcane Bagasse Ash and Quarry Dust,open access,article,5,5,0
+1,openaccess-pdf,10.47191/ijmra/v9-i4-18,Numerical Analysis of Soft Soil Stabilization with Iron Slag Using MIDAS GTS NX in Kayonza District Rwanda,open access,article,5,5,0
+1,openaccess-pdf,10.53555/ajbr.v27i4s.3704,Stabilization Of Clay Soil With Rice Husk Ash And Cement,open access,article,12,5,0
+1,openaccess-pdf,10.7176/apta/82-03,Effect of Automotive Gas Oil (AGO) on Geotechnical Properties of Lateritic Soil,open access,article,5,5,0
+1,openaccess-pdf,10.9790/1684-1134109115,"Functional Correlations between Compaction Characteristics, Un-drained Shear Strength and Atterberg Limits",open access,article,5,5,0
+1,openaccess-pdf,10.9790/1684-16053017279,A Study on Soil Stabilization Using Rbi Grade 81,open access,article,6,5,0
+1,openaccess-pdf,10.11113/mjce.v28.15990,GEOTECHNICAL ASSESSMENT OF PALM OIL FUEL ASH (POFA) MIXED WITH GRANITE RESIDUAL SOIL FOR HYDRAULIC BARRIER PURPOSES,open access,article,6,4,0
+1,openaccess-pdf,10.11113/mjce.v34.17663,CONSOLIDATION CHARACTERISTICS OF LATERITIC SOIL TREATED WITH RICE HUSK ASH,open access,article,5,4,0
+1,openaccess-pdf,10.11159/iccste25.151,Influence of Recycled PET Particle Size on the Improvement of Sandy Subgrades for Flexible Pavements,open access,article,4,4,0
+1,openaccess-pdf,10.12688/f1000research.169385.1,Evaluation of Sub-Base Material Using California Bearing Ratio and Triaxial Compression Tests: A Case Study of High Cour,open access,article,5,4,0
+1,openaccess-pdf,10.15623/ijret.2013.0212126,EFFICACY OF OVERLYING COARSE AGGREGATE AND GEOSYNTHETIC SEPARATOR ON CBR VALUE FOR SOFT SUBGRADE OF VARYING PLASTICITY -,open access,article,4,4,0
+1,openaccess-pdf,10.17577/ijertv9is060678,Compaction Characteristics of BC Soil Reinforced with Untreated and Treated Coir Fibers,open access,article,4,4,0
+1,openaccess-pdf,10.21203/rs.3.rs-6553459/v1,Geotechnical Performance and Prediction of Fly Ash–Waste Paper Sludge Stabilized Soils via Advanced Machine Learning Tec,open access,article,5,4,0
+1,openaccess-pdf,10.21275/mr23516183202,Investigational Study on the Influence of Marble Dust and Silica Fume in the Stabilization of Clayey Soil,open access,article,4,4,0
+1,openaccess-pdf,10.21275/v5i2.nov161424,Comparative Study of Compaction Behaviour of Moorum Flyash &amp; Soil Flyash at Varying Water Content by Standard Procto,open access,article,4,4,0
+1,openaccess-pdf,10.21817/ijet/2017/v9i4/170904409,Experimental Study on Effect of Gypsum and NaCl in Improvement of Engineering Properties of ClayeySoil,open access,article,4,4,0
+1,openaccess-pdf,10.28927/sr.2023.011222,Study of the hydro-mechanical behavior of a stabilized soil with water treatment plant sludge for application in sanitar,open access,article,4,4,0
+1,openaccess-pdf,10.31142/ijtsrd12704,An Experimental Study on Shear Strength of Soil Subgrade using Cement as Stabilizing Agent,open access,article,4,4,0
+1,openaccess-pdf,10.34118/jbms.v9i1.1897,Valorization of dune sand of Djelfa (Algeria) treated by hydraulic binders in pavement foundations,open access,article,4,4,0
+1,openaccess-pdf,10.35180/gse-2025-0118,"GEOPHYSICAL AND GEOTECHNICAL INVESTIGATION, AND LIME STABILIZING EFFECT ON SUBGRADE FAILURE AROUND A SECTION OF LAGOS-AB",open access,article,4,4,0
+1,openaccess-pdf,10.36282/ijasrm/4.10.2019.1630,Stability Investigation of Clayey Soil using Shredded Tyre and Lime,open access,article,4,4,0
+1,openaccess-pdf,10.36948/ijfmr.2023.v05i02.2421,A Study on Stabilization of Black Cotton Soil using Fly Ash and Rice Husk Ash,open access,article,5,4,0
+1,openaccess-pdf,10.46382/mjbas.2026.10203,Experimental Investigation and Multi Parameter Strength Optimization of Crushed Stone with Sustainable Lateritic Soil Bl,open access,article,5,4,0
+1,openaccess-pdf,10.5109/7395539,Characterization of Index Properties of Coarse-Grained Alluvial Soils for Permeability Test,open access,article,4,4,0
+1,openaccess-pdf,10.52716/jprs.v10i3.329,Using Nanomaterials in Stabilization of Soil for Oil Infrastructures,open access,article,4,4,0
+1,openaccess-pdf,10.5281/zenodo.19594558,Soil Stabilization by using Marble Dust and Iron Powder as Partial Replacement to Blackcotton Soil for Rural Road Develo,open access,article,8,4,0
+1,openaccess-pdf,10.55524/ijirem.2022.9.4.13,"""Soil Stabilization Using Rice Husk Ash and Coir Fibre """,open access,article,4,4,0
+1,openaccess-pdf,10.61453/joit.v2023no34,"Geotechnical Properties Improvement of Erosion Susceptible Soil with Caustic Soda (A Case Study of Ekosodin, Benin City)",open access,article,4,4,0
+1,openaccess-pdf,10.9790/0990-1402015865,Evaluation of Lateritic Soil at Oyigbo as Road Pavement Construction Resource,open access,article,5,4,0
+1,openaccess-pdf,10.9790/9622-0701028396,Efficient Way to Improve Subgrade Property of Pavement by Chemical Stabilization,open access,article,4,4,0
+1,openaccess-pdf,10.1016/j.soildyn.2025.109455,Strain-dependent dynamic properties of compacted clay-sand mixtures,open access,article,3,3,0
+1,openaccess-pdf,10.11113/jurnalteknologi.v84.18313,IMPROVING THE CONSOLIDATION CHARACTERISTICS OF SALINE SABKHA SOIL BY ADDING BITUMEN,open access,article,4,3,0
+1,openaccess-pdf,10.14382/epitoanyag-jsbcm.2020.2,Evaluation of index and compaction properties of lateritic soils treated with quarry dust based geopolymer cement for su,open access,article,3,3,0
+1,openaccess-pdf,10.14419/ijag.v6i1.8952,"Geotechnical properties of lateritic soil as subgrade and base material for road construction in Abeokuta, Southwest Nig",open access,article,5,3,0
+1,openaccess-pdf,10.1515/sspjce-2019-0021,Improvement of cement stabilized structural lateritic with pulverized snail shell,open access,article,3,3,0
+1,openaccess-pdf,10.15623/ijret.2013.0210054,MODIFICATION OF CLAYEY SOIL USING FLY ASH,open access,article,4,3,0
+1,openaccess-pdf,10.15623/ijret.2014.0308040,STABILIZATION OF PAVEMENT SUBGRADE BY USING FLY ASH REINFORCED WITH GEOTEXTILE,open access,article,3,3,0
+1,openaccess-pdf,10.17576/jkukm-2024-36(5)-38,Effects of Ground Coal Bottom Ash and Calcium Chloride on the Compaction Properties of Cement Stabilized Cold In-Place R,open access,article,3,3,0
+1,openaccess-pdf,10.20431/2454-8693.0201001,Kaolin Stabilization of Olokoro Lateritic Soil Using Bone Ash as Admixture,open access,article,7,3,0
+1,openaccess-pdf,10.21203/rs.3.rs-2345674/v1,Parametric Optimization of Bentonite-fly-ash Composite Core for Earthen Embankment using Taguchi Coupled Sunflower Optim,open access,article,4,3,0
+1,openaccess-pdf,10.21203/rs.3.rs-38664/v1,Effect of Untreated Oil Palm Fruit Fibre on the Engineering Properties of Road Construction Earth Materials,open access,article,3,3,0
+1,openaccess-pdf,10.21203/rs.3.rs-4115772/v1,Amelioration of fat clay treated with cohesive and cohesion less soils,open access,article,3,3,0
+1,openaccess-pdf,10.21203/rs.3.rs-8107465/v1,Performance Evaluation of Black Cotton Soil Stabilized with Boxedum Sand and Red Mud,open access,article,4,3,0
+1,openaccess-pdf,10.21275/v4i12.nov152228,A Study on Characteristics of Subgrade Soil by Use of Foundry Sand and Iron Turnings,open access,article,3,3,0
+1,openaccess-pdf,10.21660/2025.125.4760,RECYCLED CRUSHED PLASTIC WASTE STRIPS (PWS) FOR IMPROVING EXPANSIVE CLAY,open access,article,3,3,0
+1,openaccess-pdf,10.22178/pos.109-22,"Suitability of Lateritic Soil in Oluku Community, South-South, Nigeria As a Borrowed Pit Material For Construction Purpo",open access,article,4,3,0
+1,openaccess-pdf,10.30880/ijscet.2025.16.01.010,"Electrical Density Gauge, A Device for Quick Quality Control of Soil Compaction - Case Study in Indonesia",open access,article,4,3,0
+1,openaccess-pdf,10.33130/ajct.2026v1201.047,Effect of Sugarcane Molasses and Bamboo Fiber on Geotechnical Properties of Expansive Clay Soil,open access,article,3,3,0
+1,openaccess-pdf,10.35629/5252-07045767,Creating Wealth from Waste: Application of Waste Oyster Shell in the Stabilization of Lateritic Soils as Sub-base Materi,open access,article,5,3,0
+1,openaccess-pdf,10.36348/sjet.2021.v06i04.006,Performance Evaluation of Crushed Glass in Stabilizing Lateritic Soil for Road Pavement Layers,open access,article,4,3,0
+1,openaccess-pdf,10.38094/jocef50173,Enhancing California Bearing Ratio through Optimized Compaction Efforts: A Study on Alluvial Soils in North India,open access,article,4,3,0
+1,openaccess-pdf,10.47137/uujes.1753856,EMPIRICAL CORRELATION BETWEEN CBR AND INDEX PROPERTIES OF TROPICAL RESIDUAL SOILS,open access,article,4,3,0
+1,openaccess-pdf,10.53346/wjast.2022.1.2,,open access,article,3,3,0
+1,openaccess-pdf,10.58845/jstt.utt.2021.en3,Prediction of California Bearing Ratio (CBR) of Stabilized Expansive Soils with Agricultural and Industrial Waste Using,open access,article,6,3,0
+1,openaccess-pdf,10.9790/0990-0240617,"Geotechnical Investigation of Soil around Mbaukwu Gully Erosion Sites, South-Eastern Part of Nigeria",open access,article,5,3,0
+1,openaccess-pdf,10.9790/1684-1402027277,Pavement Subgrade Soils Qualified with Gyratory Compaction,open access,article,5,3,0
+1,openaccess-pdf,10.12691/ajcea-11-2-4,Evaluation of the Effect of Changes in the Distribution of Particle Size Fractions on the Mechanical Properties of the L,open access,article,6,2,0
+1,openaccess-pdf,10.14419/ijag.v8i1.30645,A study on the effects of groundnut shell ash on strength characteristics of soil,open access,article,2,2,0
+1,openaccess-pdf,10.14525/jjce.v18i4.08,Strength and Deformability Characteristics of Cemented Clayey Sand,open access,article,2,2,0
+1,openaccess-pdf,10.15282/construction.v6i1.13508,Geotechnical improvement of soft clay using cockleshell ash and rice husk as stabilising agents,open access,article,2,2,0
+1,openaccess-pdf,10.15623/ijret.2015.0406042,PREDICTION OF COMPACTION CHARECTERISTICS OF SOIL USING PLASTIC LIMIT,open access,article,2,2,0
+1,openaccess-pdf,10.15623/ijret.2015.0413017,COMPOSITE MIXTURE OF STONE DUST AND FLY ASH AS A SUBGRADE IN RURAL ROADS,open access,article,2,2,0
+1,openaccess-pdf,10.15623/ijret.2017.0603003,STUDY OF SHEAR BEHAVIOUR OF YAMUNA SAND BLENDED WITH SOFT SOIL,open access,article,2,2,0
+1,openaccess-pdf,10.17485/ijst/v14i5.56,A review on the effect of eggshell powder on engineering properties of expansive soil,open access,article,2,2,0
+1,openaccess-pdf,10.21203/rs.3.rs-10466214/v1,Geotechnical Performance of Coconut Husk Ash-Stabilized Lateritic Soils for Rural Roads in Mozambique,open access,article,2,2,0
+1,openaccess-pdf,10.21203/rs.3.rs-8399848/v1,Assessment of Geotechnical and Microstructural Properties of Expansive Clay amended with Bauxite Residue using Sodium Si,open access,article,12,2,0
+1,openaccess-pdf,10.21660/2026.144.5602,EFFECT OF FLY ASH GEOPOLYMER CONTENT AND ALKALI RATIO ON SILTY SUBBASE SOIL COMPACTION AND STRENGTH,open access,article,2,2,0
+1,openaccess-pdf,10.22214/ijraset.2019.10056,Study of Compaction Characteristics of Black Cotton Soil Reinforced with Natural Coir Fibre,open access,article,4,2,0
+1,openaccess-pdf,10.22214/ijraset.2026.77842,Stabilization of Soil Using Grinded Rice Husk Powder for Pavement Application,open access,article,6,2,0
+1,openaccess-pdf,10.2478/cee-2020-0033,Impact of Igneous Rock Admixtures on Geotechnical Properties of Lime Stabilized Clay,open access,article,13,2,0
+1,openaccess-pdf,10.2478/cee-2022-0031,Engineering Properties of Cement Stabilized Expansive Clay Soil,open access,article,5,2,0
+1,openaccess-pdf,10.2478/cee-2024-0071,The Effect of Adding Mixture of Gypsum-Lime with Geopolymer on the Properties of Swelling Soil,open access,article,2,2,0
+1,openaccess-pdf,10.28991/cej-03091157,Forensic Evaluation of Compacted Soils using RAMCODES,open access,article,2,2,0
+1,openaccess-pdf,10.28991/cej-2023-09-12-05,Utilization of Ionic Organic Polymer to Improve Performance and Properties of Problematic Soils,open access,article,2,2,0
+1,openaccess-pdf,10.31075/pis.70.03,,open access,article,5,2,0
+1,openaccess-pdf,10.31276/vjste.2023.0104,Geotechnical properties of cement-stabilised fill material: Developing a linear regression model for predicting unconfin,open access,article,2,2,0
+1,openaccess-pdf,10.3208/jgssp.v07.017,Influence of degree of saturation on strength and consolidation properties of unsaturated soil and its centrifuge modell,open access,article,2,2,0
+1,openaccess-pdf,10.32649/ajas.2021.175869,EVALUATING THE IMPACT OF LIGHT CRUDE OIL CONTAMINATIONS ON GEOTECHNICAL BEHAVIORS OF THE SOIL,open access,article,2,2,0
+1,openaccess-pdf,10.32861/ijwpds91,,open access,article,45,2,0
+1,openaccess-pdf,10.33736/jcest.3975.2021,EVALUATION OF ENGINEERING PROPERTIES OF THERMAL POWER PLANT WASTE FOR SUBGRADE TREATMENT,open access,article,2,2,0
+1,openaccess-pdf,10.4314/jasem.v18i2.5,Evaluation of Subgrade Soils using California Bearing Ratio (Cbr) in Parts of Rivers,open access,article,2,2,0
+1,openaccess-pdf,10.4314/njt.v40i2.1,Improvement of deltaic lateritic soil using river sand and cement for use as pavement construction material,open access,article,2,2,0
+1,openaccess-pdf,10.47119/ijrp1002011720269432,MECHANICAL AND MICROSTRUCTURAL PERFORMANCE OF EXPANSIVE SOILS STABILIZED WITH FLY ASH–DESULPHOGYPSUM BLENDS,open access,article,4,2,0
+1,openaccess-pdf,10.47191/etj/v10i10.26,Sustainable Performance Optimization of Lateritic Soil Stabilized With Rice Husk Ash and Cow Bone Ash using Response Sur,open access,article,3,2,0
+1,openaccess-pdf,10.48048/wjst.2021.9475,Experimental Study of Improving the Properties of Lime-Stabilized Structural Lateritic Soil for Highway Structural Works,open access,article,3,2,0
+1,openaccess-pdf,10.52321/igh.40.1.47,Performance evaluation of biopolymer-treated Black cotton soil (India),open access,article,2,2,0
+1,openaccess-pdf,10.54113/j.sust.2025.000083,Experimental study on the suitability of highland bamboo sawdust in improving expansive soil,open access,article,2,2,0
+1,openaccess-pdf,10.55041/ijsrem66247,Enhancing Soil Stability Through the Utilization of Waste Fiber Materials,open access,article,2,2,0
+1,openaccess-pdf,10.5539/mas.v4n12p66,Geotechnical Properties of Some Coal Fly Ash Stabilized Southwestern Nigeria Lateritic Soils,open access,article,31,2,0
+1,openaccess-pdf,10.63958/azojete/2025/21/04/001,Influence of Bamboo Fibre on Engineering Properties of Lateritic Soils as Highway Pavement Materials,open access,article,4,2,0
+1,openaccess-pdf,10.63958/azojete/2026/22/01/008,"Geotechnical Performance Evaluation of Flood-Impacted Subgrade of Fori Road, Maiduguri, Borno State, Nigeria",open access,article,2,2,0
+1,openaccess-pdf,10.64252/et35ah92,Sustainable Stabilization Of Expansive Black Cotton Soil Using Recycled PET Plastic Waste For Flexible Pavement Subgrade,open access,article,3,2,0
+1,openaccess-pdf,10.7763/ijesd.2015.v6.718,Potential of Silty Clay Soil as an Attenuation Material for Containment of Phenolic Wastewater Outfall Site,open access,article,2,2,0
+1,openaccess-pdf,10.9790/1684-1303070716,Influence of Standard and Modified Proctor Compactive Efforts on Cement Stabilized Black Cotton Soil (BCS) with Waste Gl,open access,article,2,2,0
+1,openaccess-pdf,10.9790/9622-0706073439,Effect of Nano-Copper on Performance of Black Cotton Soil,open access,article,5,2,0
+1,openaccess-pdf,10.1051/e3sconf/20199217006,Rainfall induced erosion of soils used in earth roads,open access,article,1,1,0
+1,openaccess-pdf,10.1051/e3sconf/202342701004,Using a Laboratory Model Test to Evaluate Collapsibility of Gypseous Soils Improved by Sludge,open access,article,1,1,0
+1,openaccess-pdf,10.11159/icgre19.160,Compaction and Strength Properties of Road Subbase Infused with a Latex Copolymer,open access,article,1,1,0
+1,openaccess-pdf,10.11159/icgre23.135,Suitability of Laboratory Compaction Procedure for Secondary Materials,open access,article,1,1,0
+1,openaccess-pdf,10.1139/cjce-2016-0435,Laboratory characterization of reclaimed asphalt pavement for road construction in Egypt,open access,article,6,1,0
+1,openaccess-pdf,10.11648/j.ijmsa.20251405.15,Optimization of Clayey Ferralitic Soil Stabilization with Crushed Granite and Pulverized Ceramic Waste Through a Compara,open access,article,1,1,0
+1,openaccess-pdf,10.12814/jkgss.2013.12.1.001,Particle Crushing Properties of Decomposed Granite Soil due to Changes in the Degree of Weathering,open access,article,1,1,0
+1,openaccess-pdf,10.12944/cwe.19.3.6,Optimizing Soil Performance: Using Cement Kiln Dust along with Polymer Integration for Soil Stabilization,open access,article,1,1,0
+1,openaccess-pdf,10.12962/jifam.v6i0.19993,Correlation of Initial Soil Density and Maximum Soil Density Under Drying-Wetting Cycles and Their Soil Erodibility,open access,article,1,1,0
+1,openaccess-pdf,10.1371/journal.pone.0344432,From problematic soil to engineered fill: Transforming granite residual soil with clay improvement,open access,article,2,1,0
+1,openaccess-pdf,10.14207/ejsd.2018.v7n1p89,SUSTAINABILITY IN ROAD CONSTRUCTION: USING BAMBOO STRAW ASH TO IMPROVE THE INDEX PROPERTIES OF LATERITIC SOIL,open access,article,1,1,0
+1,openaccess-pdf,10.14525/jjce.v18i1.11,Expansive Soil Stabilization Using Steel Factory Dust,open access,article,1,1,0
+1,openaccess-pdf,10.15282/construction.v4i2.11110,Basic Geotechnical Characteristic of Soft Clay Stabilised with Cockle Shell Ash and Silica Fume,open access,article,1,1,0
+1,openaccess-pdf,10.15623/ijret.2013.0213039,CHARACTERIZATION OF LIMESTONE WASTE FOR CONSTRUCTION OF FLEXIBLE PAVEMENT,open access,article,4,1,0
+1,openaccess-pdf,10.15623/ijret.2015.0405079,EVALUATION OF CBR USING GEOSYNTHETICS IN SOIL LAYERS,open access,article,1,1,0
+1,openaccess-pdf,10.15623/ijret.2015.0407013,EFFECT OF SAW DUST ASH AND FLY ASH ON STABILITY OF EXPANSIVE SOIL,open access,article,4,1,0
+1,openaccess-pdf,10.15623/ijret.2015.0407075,INFLUENCE OF UNTREATED AND TREATED COIR PITH ON COMPACTION AND STRENGTH CHARACTERISTICS OF SOIL,open access,article,1,1,0
+1,openaccess-pdf,10.17485/ijst/v18i40.1532,Sustainable Stabilization of Puducherry Inland Clay using Lime and Quarry Dust: Geotechnical Properties and ANN-Based Pr,open access,article,1,1,0
+1,openaccess-pdf,10.17515/resm2024.204me0303rs,Mechanical behavior of silty-clayey lateritic soil stabilized with recycled municipal solid waste ash,open access,article,1,1,0
+1,openaccess-pdf,10.17515/resm2026-1811me0701rs,"Shear strength, CBR, and interface interaction of pumice-modified clay reinforced with Geostrip: A large-scale laborator",open access,article,1,1,0
+1,openaccess-pdf,10.17576/jkukm-2021-33(2)-20,Comparative Modelling of Strength Properties of Hydrated-Lime Activated RiceHusk-Ash (HARHA) Modified Soft Soil for Pave,open access,article,1,1,0
+1,openaccess-pdf,10.17656/sjes.10213,Characterization and Volumetric Stability of High-Plasticity Clay Stabilized by Fly Ash and Metakaolin Based Geopolymers,open access,article,1,1,0
+1,openaccess-pdf,10.18282/ice.v7i1.618,Study on compaction characteristics and discrete element simulation for rubber particle-loess mixed soil,open access,article,1,1,0
+1,openaccess-pdf,10.18687/laccei2024.1.1.1618,Effects of Quarry and Recycled Concrete Waste as Rapid Use Stabilizers for Clay Soils,open access,article,2,1,0
+1,openaccess-pdf,10.20431/2454-8693.0202003,Evaluation of the Structural Performance of Lateritic Soil Stabilized with Cassava Peel Ash (CPA) and Cement,open access,article,1,1,0
+1,openaccess-pdf,10.20902/ijctr.2019.120620,Compaction Characteristics of Swelling Soil Stabilized withBottom Ash and Geogrid,open access,article,3,1,0
+1,openaccess-pdf,10.21203/rs.3.rs-2153207/v1,Influence of Crushed Sand and Lime Stabilizer on the properties of Clayey Soil for Pavement Sub-Grade,open access,article,1,1,0
+1,openaccess-pdf,10.21203/rs.3.rs-8918321/v1,Sustainable Stabilization of Expansive Soil for Subgrade Applications Using Waste Glass Powder and Steel Slag,open access,article,1,1,0
+1,openaccess-pdf,10.21203/rs.3.rs-9380195/v1,Geotechnical Enhancement of Marine Clay for Flexible Pavement Subgrade Using Foundry Sand and Alkali-Activated Geopolyme,open access,article,1,1,0
+1,openaccess-pdf,10.2208/jscejseee.73.i_161,"AN EXPERIMENTAL CONSIDERATION ON PERMEABILITY, COMPACTION CHARACTERISTIC AND FAILURE PATTERN BY VIBRATION FOR UNSATURATE",open access,article,1,1,0
+1,openaccess-pdf,10.22214/ijraset.2018.2082,Stabilization of Expansive Kuttanad clay using Lime treated Rice straw fibres,open access,article,1,1,0
+1,openaccess-pdf,10.22214/ijraset.2018.5337,Stabilization of Black Cotton Soil with Marble Dust,open access,article,1,1,0
+1,openaccess-pdf,10.22214/ijraset.2020.4191,Reinforcement of Clay Material Doped with Metal-Oxide Nano-Material,open access,article,1,1,0
+1,openaccess-pdf,10.22214/ijraset.2021.37941,Stablization of Clayey Soil Via Lime and Plastic Fibre for Advanced Foundation Proposition.,open access,article,1,1,0
+1,openaccess-pdf,10.22214/ijraset.2022.43662,Determination of Suitable Hyperparameters of Artificial Neural Network for the Best Prediction of Geotechnical Propertie,open access,article,3,1,0
+1,openaccess-pdf,10.22214/ijraset.2025.72521,To Study the Impact of Chloride Compounds on the Characteristics of Clay Soil,open access,article,9,1,0
+1,openaccess-pdf,10.22214/ijraset.2025.74984,Evaluation Studies on Marine Clay Stabilized with Foundry Sand and Geopolymer as Subgrade for Flexible Pavement,open access,article,1,1,0
+1,openaccess-pdf,10.22581/muet1982.1801.16,Co-Relationship between California Bearing Ratio and Index Properties of Jamshoro Soil,open access,article,1,1,0
+1,openaccess-pdf,10.24191/jmeche.v11i1.23592,Experimental Study on Mechanical Behavior of Laterite Soil Treated with Quicklime,open access,article,1,1,0
+1,openaccess-pdf,10.24200/sci.2017.4208,Influence of Random Inclusion of Treated Sisal Fibres on the Unconfined Compressive Strength of Highly Compressible Clay,open access,article,1,1,0
+1,openaccess-pdf,10.24425/ace.2023.144162,Application of steel slag in stabilizations of expansive soil: an experimental study,open access,article,1,1,0
+1,openaccess-pdf,10.2478/cee-2026-0023,Sustainable Soil Stabilization: Enhancing Expansive Soil with Natural Luffa Fiber,open access,article,1,1,0
+1,openaccess-pdf,10.2478/sjce-2024-0021,Behavior of Modified Coastal Soil using Corex Slag and Hydrated Lime: A Laboratory Investigation,open access,article,1,1,0
+1,openaccess-pdf,10.2478/sspjce-2021-0024,Treatment of clay soil with paper ash,open access,article,1,1,0
+1,openaccess-pdf,10.2495/ut180261,INVESTIGATION OF CALCIUM CARBIDE RESIDUE AS A STABILIZER FOR TROPICAL SAND USED AS PAVEMENT MATERIAL,open access,article,1,1,0
+1,openaccess-pdf,10.25236/ajage.2024.060409,Study on Engineering Characteristics and Mechanism of Expansive Soil Improved by Lime-zeolite Powder,open access,article,1,1,0
+1,openaccess-pdf,10.25258/ijddt.16.16s.2,Sustainable Approach for Soil Stabilization Using Industrial By-Product (Coal Dust) and Magnesium Chloride.,open access,article,1,1,0
+1,openaccess-pdf,10.26682/csjuod.2020.23.2.16,Effect of Gravel Dust And Limestone Dust on Geotechnical Properties of Clayey Soil,open access,article,1,1,0
+1,openaccess-pdf,10.28991/cej-2019-03091277,The Effect of Lining Material on the Permeability of Clayey Soil,open access,article,1,1,0
+1,openaccess-pdf,10.28991/cej-2023-09-03-014,Strength Characteristic of Lightweight Modular Block (LMB) Element using Stabilized Dredged Soil-EPS,open access,article,1,1,0
+1,openaccess-pdf,10.28991/cej-2024-010-11-017,Utilizing Recycled Rubber and Municipal Waste Incineration Fly Ash in Cement-Stabilized Clayey Soils,open access,article,1,1,0
+1,openaccess-pdf,10.28991/cej-2025-011-05-020,Correlation of Methylene Blue Value with the Behavior of Natural and Stabilized Expansive Soils,open access,article,2,1,0
+1,openaccess-pdf,10.28991/cej-2026-012-02-012,"Effect of Fly Ash and Nano-Silica Fume on Soft Clay: Atterberg Limits, MDD, and OMC",open access,article,1,1,0
+1,openaccess-pdf,10.30564/agger.v4i3.4958,Geotechnical Properties of Some Clay Deposits in Some Parts of Southwestern Nigeria in Relation to Its Engineering Impli,open access,article,2,1,0
+1,openaccess-pdf,10.30574/gscarr.2025.23.1.0098,Coir-fiber reinforced soil-cement block as walling material for rural houses,open access,article,1,1,0
+1,openaccess-pdf,10.30574/wjaets.2022.5.2.0048,"Improvement of lateritic soil using shredded plastic bottles for road construction in Jos-South, Plateau State of Nigeri",open access,article,1,1,0
+1,openaccess-pdf,10.30880/ijie.2024.16.05.032,Experimental Studies on Fiber Reinforced Soil Stabilized with Lime and Fly Ash,open access,article,2,1,0
+1,openaccess-pdf,10.30880/ijscet.2023.14.04.025,Effects of Industrial and Agricultural Recycled Waste Enhanced with Lime Utilisation in Stabilising Kaolinitic Soil,open access,article,1,1,0
+1,openaccess-pdf,10.31026/j.eng.2013.07.05,Behavior of Reinforced Gypseous Soil Embankment Model under Cyclic Loading,open access,article,1,1,0
+1,openaccess-pdf,10.33003/fjs-2026-1011-4935,Predictive Modelling of Compressive Strength of Rice Husk Ash Stabilized Clay Burnt Bricks,open access,article,1,1,0
+1,openaccess-pdf,10.3389/feart.2021.783273,Soil-Water Characteristics and Creep Deformation of Unsaturated Expansive Subgrade Soil: Experimental Test and Simulatio,open access,article,1,1,0
+1,openaccess-pdf,10.35940/ijeat.c5667.029320,Prediction of CBR Value of Stabilized Black Cotton Soil use for Road Construction,open access,article,2,1,0
+1,openaccess-pdf,10.36108/laujoces/3202.01.0260,Geotechnical Stabilization Potential of Cement Admixed with Rice Husk Ash on the Crude Oil Polluted Laterite Soil: A Cas,open access,article,1,1,0
+1,openaccess-pdf,10.36108/laujoces/4202.21.0121,Influence of Calcium Carbide Residue on Corn Stalk Ash Stabilized Lateritic Soil for Highway Pavement Construction,open access,article,1,1,0
+1,openaccess-pdf,10.36108/laujoces/5202.41.0150,The Effect of Groundnut Shell Ash on the Geotechnical Properties of Lateritic Soils,open access,article,1,1,0
+1,openaccess-pdf,10.36108/laujoces/5202.51.0101,Synergetic Application of Oyster Shell Powder and Corn Cob Ash for the Valorisation of Geotechnical Properties of Lateri,open access,article,1,1,0
+1,openaccess-pdf,10.36306/konjes.1311189,IMPROVEMENT OF HIGH PLASTICITY CLAY BY USING FILTER SLUDGE,open access,article,1,1,0
+1,openaccess-pdf,10.36909/jer.v8i1.4966,Evaluation of Compacted Laterite Soil Admixed with Cement and Hair Fibres as Road Construction Material,open access,article,1,1,0
+1,openaccess-pdf,10.36937/cebel.2025.1995,APPLICATION OF HEURISTIC OPTIMIZATION APPROACHES TO EVALUATE COMPACTION PARAMETERS,open access,article,4,1,0
+1,openaccess-pdf,10.36948/ijfmr.2023.v05i05.6515,Shredded Waste Tyre General Approach as a Construction Material,open access,article,1,1,0
+1,openaccess-pdf,10.37650/ijce200110,Performance of Nano-Paramagnetic Oxide in Strengthening and Microstructural Analysis of Soft Soil,open access,article,1,1,0
+1,openaccess-pdf,10.37745/ijcecem.14/vol13n14150,Synthesis and Application of Rice Husk-Based Nanosilica in Lateritic Soil Improvement,open access,article,1,1,0
+1,openaccess-pdf,10.37933/nipes/7.4.2025.si422,Strength Parameters and the Rate Process Theory Applied to Compacted Fadama Soils,open access,article,1,1,0
+1,openaccess-pdf,10.38124/ijisrt/25apr1299,"Experimental Investigation of Expansive Soil Properties Stabilized by using Fly Ash, Waste Cement Bag Fiber, and Lime",open access,article,1,1,0
+1,openaccess-pdf,10.4081/jae.2022.1315,Effects of basalt fibres on strength and permeability of rice husk ash-treated expansive soils,open access,article,1,1,0
+1,openaccess-pdf,10.4314/fuoyejet.v10i4.20,Geotechnical Behaviour of Steel Slag–Lateritic Soil Reinforced with Shredded Plastic Waste for Road Foundations,open access,article,1,1,0
+1,openaccess-pdf,10.4314/jasem.v23i8.5,Potential of snail shell and palm kernel shell powders in improving engineering properties of clay,open access,article,1,1,0
+1,openaccess-pdf,10.4314/jasem.v25i11.6,Influence of Increasing Cement Content on some Geotechnical Properties of selected Lateritic Soils of Western Niger Delt,open access,article,1,1,0
+1,openaccess-pdf,10.4314/njt.v37i3.6,Investigation of the impact of palm bunch ash on the stabilization of poor lateritic soil,open access,article,1,1,0
+1,openaccess-pdf,10.4314/njt.v39i3.10,Oil palm empty fruit bunch ash stabilized laterite as a fill material for low-volume pavement,open access,article,1,1,0
+1,openaccess-pdf,10.46572/nat.2020.13,Influence of a Clay Subgrade Stabilized with Blast Furnace Slag on Flexible Road Pavement Thickness and Cost,open access,article,1,1,0
+1,openaccess-pdf,10.47191/etj/v11i06.17,Formulation and Evaluation of an Aloe Vera–Based Hybrid Soil Stabilizing Agent Incorporating GGBS and Cement for Base Co,open access,article,1,1,0
+1,openaccess-pdf,10.48084/etasr.17751,Mechanical and Bearing Performance of Cement–Fly Ash Stabilized Clay Subgrade,open access,article,1,1,0
+1,openaccess-pdf,10.48084/etasr.8377,Performance of Bitumen Emulsion Mixtures utilized as Gravel Road Base incorporating Lateritic Clay Soil and Calcined Sug,open access,article,1,1,0
+1,openaccess-pdf,10.48175/ijarsct-15667,Plastic as a Soil Stabilizer,open access,article,1,1,0
+1,openaccess-pdf,10.5251/ajsir.2012.3.3.166.174,Effect of bamboo leaf ash on cement stabilization of Makurdi shale for use as flexible pavement construction material,open access,article,1,1,0
+1,openaccess-pdf,10.52589/ijmce-hbq3bmwy,Engineering Characteristics of Soils Reinforced with Shredded Plastic Waste,open access,article,2,1,0
+1,openaccess-pdf,10.52783/dxjb.v38.462,Geotechnical Characterization of Black Cotton Soil Stabilized with Incinerated Municipal Solid Waste Bottom Ash,open access,article,1,1,0
+1,openaccess-pdf,10.52783/jisem.v10i51s.10367,Study and Analysis of Stabilization of Soil with Stone dust,open access,article,1,1,0
+1,openaccess-pdf,10.5389/ksae.2010.52.2.043,Characteristics of Vertical Stress Distribution in Sandy Soil According to the Relative Compaction and Composition of th,open access,article,1,1,0
+1,openaccess-pdf,10.53982/ajerd.2025.0801.03-j,Effect of Palm Kernel Shell Ash Supplement with Egg Shell Ash on Stabilized Lateritic Soil for a Road Work,open access,article,1,1,0
+1,openaccess-pdf,10.5552/crojfe.2021.852,Technical and Environmental Impacts of Coal Waste Used as a Soil Stabilizer in Construction Projects of Forest Roads,open access,article,1,1,0
+1,openaccess-pdf,10.55544/jrasb.icaces.14,"Influence of Nano-Silica, Lime and Fly Ash on the Compaction Characteristics of an Expansive Black Cotton Soil from Cent",open access,article,1,1,0
+1,openaccess-pdf,10.56144/igj.v2i3.72,CBR Correlation with Index and Compaction Properties of Soil,open access,article,1,1,0
+1,openaccess-pdf,10.56578/ijei080520,Utilizing Recycled Vegetable Plastic Bags as an Innovative and Sustainable Material for Soil Reinforcement Applications,open access,article,1,1,0
+1,openaccess-pdf,10.56726/irjmets39136,EFFECT OF BAGASSE FIBER ON CBR AND SWELLING CHARACTERISTICS OF A-7-6 SOIL,open access,article,1,1,0
+1,openaccess-pdf,10.56975/ijcsp.v16i2.304965,Evaluation of Strength Gain in Lime Treated Expansive Soils Enhanced with RHA and GGBS,open access,article,1,1,0
+1,openaccess-pdf,10.58257/ijprems32905,Strength Behaviour of Expansive Soil Treated with Tile Waste,open access,article,1,1,0
+1,openaccess-pdf,10.62225/2583049x.2026.6.1.5610,"Geotechnical Investigation of Stabilized Black Cotton Soil for Flexible Pavement Design: A Case-study of Dadin-kowa, Gom",open access,article,1,1,0
+1,openaccess-pdf,10.63958/azojete/2026/22/01/016,Effect of Sand Addition on the Geotechnical Properties of Clay,open access,article,2,1,0
+1,openaccess-pdf,10.64290/bima.v8i2b.699,Evaluation of Performance of Quarry Dust as Additive for Stabilizing Black Cotton Soils,open access,article,1,1,0
+1,openaccess-pdf,10.70028/sgm.v1i1.2,Stabilizing Peat Soil Using Sawdust Ash,open access,article,1,1,0
+1,openaccess-pdf,10.70102/ijares/v6s1/6-s1-1722,"Synergistic Geotechnical Enhancement of Expansive Regur Soil through Sustainable Composite Stabilization Using Fly Ash,",open access,article,1,1,0
+1,openaccess-pdf,10.70558/ijst.2025.v2.i4.241148,Temperature Induced Variations in Soil Shear Strength: Experimental Approch,open access,article,1,1,0
+1,openaccess-pdf,10.7251/agreng1703092z,A GEOTECHNICAL ASSESSMENT OF USABILITY OF A ROCKSOIL MIXTURE FOR EARTH STRUCTURES,open access,article,1,1,0
+1,openaccess-pdf,10.9790/1684-0460915,Impact of Compaction Delay on the Engineering Properties of Cement Treated Soil.,open access,article,2,1,0
+1,openaccess-pdf,10.9790/1684-2302019096,Correlation of Compaction Characteristics with Atterberg Limits for Fine Grained Soils,open access,article,1,1,0
+1,openaccess-pdf,10.1061/(asce)gm.1943-5622.0002297,Recycled Aggregate Mixtures for Backfilling Sewer Trenches in Nontrafficable Areas,open access,article,4,0,0
+1,openaccess-pdf,10.11113/mjce.v30.16070,EVALUATION OF SUBGRADE CAPACITY OF JIMMA SOILS USING DCP TEST: A CORRELATION OF CBR AND DCPI,open access,article,1,0,0
+1,openaccess-pdf,10.11159/icgre19.148,The Consolidation Properties of Natural Fibre Clay Composite,open access,article,1,0,0
+1,openaccess-pdf,10.11648/j.jccee.20251006.11,Effect of Neem Seed Ash on the Geotechnical Properties of Lateritic Soil,open access,article,3,0,0
+1,openaccess-pdf,10.1201/9781003299127-85,Stabilization of clay soil using ground granulated blast furnace slag and banana fibres,open access,article,1,0,0
+1,openaccess-pdf,10.12911/22998993/186818,Assessment of the Sub-Base Material for the Optimum Moisture Content and Maximum Dry Density Using Amalgamated Pond Ash,open access,article,5,0,0
+1,openaccess-pdf,10.14311/cej.2016.04.0022,GEOTECHNICAL PROPERTIES OF LATERITIC SOIL STABILIZED WITH THE ASHES OF OIL PALM FRONDS,open access,article,1,0,0
+1,openaccess-pdf,10.14382/epitoanyag-jsbcm.2025.10,Progressive artificial neural network model for CBR forecasts with minimum train spans,open access,article,1,0,0
+1,openaccess-pdf,10.14710/mkts.v23i2.15975,Perilaku Geser Tanah yang Distabilisasi dengan Abu Ampas Tebu-Semen dan Inklusi Serat Polyester,open access,article,3,0,0
+1,openaccess-pdf,10.17515/resm2025-1008ma0706rs,Mix screening study of laterite soil stabilization using one-part geopolymer binders for earth blocks,open access,article,1,0,0
+1,openaccess-pdf,10.17515/resm2025-682ma0214rs,Sustainable stabilization of native subgrade soil for low-volume roads using copper slag and cementitious materials,open access,article,1,0,0
+1,openaccess-pdf,10.21203/rs.3.rs-3924499/v1,Assessment of the Microstructure and Geotechnical Characteristics of Lime- Improved Lateritic Soil with the Addition of,open access,article,1,0,0
+1,openaccess-pdf,10.21203/rs.3.rs-4190738/v1,"Effects of Quarry Dust on the Engineering Properties of Lateritic Soils for Highway Construction in Imo State, Nigeria",open access,article,1,0,0
+1,openaccess-pdf,10.21203/rs.3.rs-7907876/v1,Comparative Study of Natural and Artificially Stabilized Soils,open access,article,1,0,0
+1,openaccess-pdf,10.21203/rs.3.rs-9142857/v1,Investigation on Alkaline Activation of Granite Waste using Sodium Hydroxide for the Treatment of Expansive Soil,open access,article,2,0,0
+1,openaccess-pdf,10.21275/sr21723175002,Development of a Mathematical Model to Estimate Soaked California Bearing Ratio of a Lateritic Soil in Ekiti Northern Se,open access,article,32,0,0
+1,openaccess-pdf,10.21276/ijcesr.2019.6.6.4,STABILIZATION OF BLACK COTTON SOIL USING RICE HUSK ASH AND CRUMB RUBBER,open access,article,1,0,0
+1,openaccess-pdf,10.22178/pos.82-11,Effect of Metakaolin on Strength Properties of Lateritic Soil Intended for Use as Road Construction Material,open access,article,1,0,0
+1,openaccess-pdf,10.22214/ijraset.2023.51412,Use of Recycled Construction and Demolition Waste Material in Soil Stabilization,open access,article,4,0,0
+1,openaccess-pdf,10.22214/ijraset.2024.62190,Soil Stabilization Using Rice Husk Ash and Sugarcane Bagasse Ash,open access,article,1,0,0
+1,openaccess-pdf,10.24237/asj.02.03.777b,Geotechnical and Geophysical Methods for Water Content Prediction of Compacted Soil Southern Baqubah City,open access,article,2,0,0
+1,openaccess-pdf,10.28927/sr.2026.007825,Assessment of potential of Algerian iron ore tailing as a standalone stabilizing material for expansive clayey soils,open access,article,1,0,0
+1,openaccess-pdf,10.28991/cej-03091137,Effects of Waste Glass Powder on the Geotechnical Properties of Loose Subsoils,open access,article,1,0,0
+1,openaccess-pdf,10.28991/cej-2020-sp(emce)-03,Evaluation of Bentonite Mixed Indigenous Clays for Development of Clay Liners,open access,article,1,0,0
+1,openaccess-pdf,10.28991/cej-2026-012-07-017,Assessing Strength Characteristics of PVA Fiber-Reinforced Lean Clay Soils,open access,article,1,0,0
+1,openaccess-pdf,10.30574/wjarr.2024.22.1.1095,Effects of oil palm mesocarp fibers on the physical and mechanical properties of expansive soils,open access,article,1,0,0
+1,openaccess-pdf,10.30880/ijie.2021.13.04.023,Effect of Groundnut Shell Ash on Laterite Soils Stabilized with Lime for Civil Structures,open access,article,3,0,0
+1,openaccess-pdf,10.30880/ijscet.2023.14.04.001,Strength of Laterite Mixed with GeoPolySoilS for Slope Cover and Protection,open access,article,1,0,0
+1,openaccess-pdf,10.31695/ijerat.2019.3409,Experimental Study on Effect of Lime and Cement Stabilizers on Geotechnical Properties of Lateritic Soil,open access,article,1,0,0
+1,openaccess-pdf,10.3311/ppci.7239,Soil Modification by the Application of Steel Slag,open access,article,1,0,0
+1,openaccess-pdf,10.35940/ijrte.e7432.0111523,Experimental Study on the Influence of Alccofine-1203 and Phosphogypsum on the Strength Characteristics of Expansive Soi,open access,article,1,0,0
+1,openaccess-pdf,10.36108/laujoces/5202.51.0180,Stabilization of Lateritic Soil with Binary Stabilizer Activated With Calcium Chloride for Highway Pavement Construction,open access,article,1,0,0
+1,openaccess-pdf,10.36909/jer.10445,Large scale laboratory investigation in the improvement of subgrade characteristics of clay soil stabilized with constru,open access,article,2,0,0
+1,openaccess-pdf,10.4236/oalib.1100711,Utilization of a New by-Product Material for Soft Subgrade Soil Stabilization,open access,article,1,0,0
+1,openaccess-pdf,10.4314/jfas.v8i3.30,Experimental characterization of clay soils behavior stabilized by polymers,open access,article,1,0,0
+1,openaccess-pdf,10.46254/an12.20220699,Estimation of Compaction Characteristics Using Machine Learning Techniques,open access,article,1,0,0
+1,openaccess-pdf,10.46604/ijeti.2022.8912,Effectiveness of Pozzolanic Leaf Ashes and Plastics on Geotechnical Characteristics,open access,article,3,0,0
+1,openaccess-pdf,10.46810/tdfd.1729919,Use of Ahlat stone powder for expansive subgrade stabilization,open access,article,1,0,0
+1,openaccess-pdf,10.47001/irjiet/2020.411005,"Soil Structural Analysis of Laterite Properties used as a Road Construction Material, Abuja as a Case Study",open access,article,3,0,0
+1,openaccess-pdf,10.48175/ijarsct-37154,Stabilization of Expansive Soil Using Marble Dust and Bagasse Ash,open access,article,1,0,0
+1,openaccess-pdf,10.51201/jusst/22/0145,"Index And Engineering Properties Of Subgrade Soils: A Study In Areka Town, Wolaita Zone, Southern Ethiopia",open access,article,1,0,0
+1,openaccess-pdf,10.53982/ajerd.2026.0901.09-j,Compressibility and Settlement Analysis of Waste-Ceramic Dust Stabilized Sand-Clay Mixture,open access,article,1,0,0
+1,openaccess-pdf,10.54113/j.suem.2025.000011,Influence of soil characteristics on the compressive strength of cement-stabilized earth blocks: statistical and machine,open access,article,6,0,0
+1,openaccess-pdf,10.54287/gujsa.1880043,Improving Physical and Mechanical Properties of Expansive Subgrade with Construction and Demolition Waste,open access,article,1,0,0
+1,openaccess-pdf,10.54392/irjmt24611,"Assessment of Strength Properties of Clayey Sand Soils Admixed with Marble Powder, GGBS and Geotextile Reinforcement",open access,article,6,0,0
+1,openaccess-pdf,10.61808/jsrt362,Characterization Of Limestone Waste for Use in Base and Sub-Base Layers of Flexible Pavements,open access,article,2,0,0
+1,openaccess-pdf,10.64388/irev10i1-1719946,Integrated Electrical Resistivity Tomography and Geotechnical Assessment of Road Failure Susceptibility along the Umuahi,open access,article,2,0,0
+1,openaccess-pdf,10.70382/sjber.v9i4.035,"PLASTICITY AND COMPACTION CHARACTERISTICS OF LATERITIC SOILS IN TOUNGO AREA, ADAMAWA STATE, NIGERIA",open access,article,1,0,0
+1,openaccess-pdf,10.70729/se251214171541,Thermo Mechanical and Microstructural Behavior of Clay Soil Under Elevated Temperatures with CBR Prediction Modelling,open access,article,1,0,0
+1,openaccess-pdf,10.9790/1684-0650109,Index properties of alkalis treated expansive and non expansive soil contaminated with acids,open access,article,1,0,0
+2,digitised-figure,10.29137/umagd.379757,Prediction of Compaction Behaviour of Soils at Different Energy Levels,open access,article,0,0,9
+2,digitised-figure,10.21203/rs.3.rs-6553459/v1,Geotechnical Performance and Prediction of Fly Ash–Waste Paper Sludge Stabilized Soils via,open access,article,0,0,7
+2,digitised-figure,10.34218/ijciet.11.11.2020.005,EVALUATION OF SALT WATER EFFECT ON THE PHYSICAL PROPERTIES AND COMPACTION CHARACTERISTICS ,open access,article,0,0,7
+2,digitised-figure,10.1051/e3sconf/20199218002,Compacted states and physical properties of soil controlled by the degree of saturation du,open access,article,0,0,6
+2,digitised-figure,10.28991/cej-2021-03091635,Unconfined Compressive Strength Characteristics of Overboulder Asbuton and Zeolite Stabili,open access,article,0,0,6
+2,digitised-figure,10.56726/irjmets39136,EFFECT OF BAGASSE FIBER ON CBR AND SWELLING CHARACTERISTICS OF A-7-6 SOIL,open access,article,0,0,6
+2,digitised-figure,10.14525/jjce.v19i1.10,Experimental Study on the Stabilization of Expansive Soil with Blended Fine Cinder Gravel ,open access,article,0,0,5
+2,digitised-figure,10.2478/sgem-2023-0001,Effect of Specimens’ Height to Diameter Ratio on Unconfined Compressive Strength of Cohesi,open access,article,0,0,5
+2,digitised-figure,10.21203/rs.3.rs-3065693/v1,Influence of Calcium Carbonate Sludge on Cement-Stabilized Subgrade Quality as Investigate,open access,article,0,0,4
+2,digitised-figure,10.2478/cee-2024-0071,The Effect of Adding Mixture of Gypsum-Lime with Geopolymer on the Properties of Swelling ,open access,article,0,0,4
+2,digitised-figure,10.28991/cej-2019-03091277,The Effect of Lining Material on the Permeability of Clayey Soil,open access,article,0,0,4
+2,digitised-figure,10.21203/rs.3.rs-3946487/v1,Weak Soil Modifications Using Sustainable Recycled Municipal Solid Waste Ash,open access,article,0,0,3
+2,digitised-figure,10.28991/cej-2023-09-12-05,Utilization of Ionic Organic Polymer to Improve Performance and Properties of Problematic ,open access,article,0,0,3
+2,digitised-figure,10.28991/cej-2024-010-11-017,Utilizing Recycled Rubber and Municipal Waste Incineration Fly Ash in Cement-Stabilized Cl,open access,article,0,0,2
+2,digitised-figure,10.31276/vjste.2023.0104,Geotechnical properties of cement-stabilised fill material: Developing a linear regression,open access,article,0,0,2
+2,digitised-figure,10.36948/ijfmr.2023.v05i02.2421,A Study on Stabilization of Black Cotton Soil using Fly Ash and Rice Husk Ash,open access,article,0,0,2
+2,digitised-figure,10.56726/irjmets44189,STABILIZATION OF LATERITE SOIL USING FGD GYPSUM FOR PAVEMENT CONSTRUCTION,open access,article,0,0,2
+2,digitised-figure,10.20961/ijcee.v9i1.64990,STABILIZATION OF LATERITIC SOIL SAMPLE FROM IJOKO WITH CEMENT KILN DUST AND LIME,open access,article,0,0,1
+2,digitised-figure,10.21660/2020.77.24546,INVESTIGATION OF CBR-VALUES OF GRANULAR SUB BASE IN VARIOUS DEGREE OF SATURATION (DOS),open access,article,0,0,1
+2,digitised-figure,10.28991/cej-2019-03091310,Physiochemical Characterization and Dematerialization of Coal Class F Flyash Residues from,open access,article,0,0,1
+2,digitised-figure,10.3208/jgssp.jpn-122,Geotechnical utilisation of soil generated from earthquake waste-derived wood chips,open access,article,0,0,1
+2,digitised-figure,10.33736/jcest.5337.2023,COMPACTION CHARACTERISTICS AND WORKABILITY OF THE LATERITIC SOIL-IRON ORE TAILINGS IN PAVE,open access,article,0,0,1
+2,digitised-figure,10.34117/bjdv11n5-028,The influence of rice husk ash and spent catalyst RCC 15 on the unconfined compressive str,open access,article,0,0,1
+2,digitised-figure,10.36108/laujoces/3202.01.0260,Geotechnical Stabilization Potential of Cement Admixed with Rice Husk Ash on the Crude Oil,open access,article,0,0,1

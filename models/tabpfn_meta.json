@@ -1,0 +1,51 @@
+{
+  "backend": "tabpfn",
+  "note": "TabPFN predicts by in-context learning: the training records are supplied as context and the query read off in a single forward pass, with no gradient step on this dataset. There are therefore no fitted weights to release -- the context file below is the artefact, and predict.py --model tabpfn reproduces the model from it.",
+  "context": "models/source_pfn.csv",
+  "context_records": 2854,
+  "features": [
+    "LL",
+    "PL",
+    "PI",
+    "fines_pct",
+    "sand_pct",
+    "log_energy",
+    "Gs"
+  ],
+  "params": {
+    "device": "cpu",
+    "random_state": 0
+  },
+  "missing_by_design": {
+    "LL": 134,
+    "PL": 134,
+    "sand_pct": 169
+  },
+  "cross_validated": {
+    "MDD_Mgm3": {
+      "r2": 0.8235,
+      "mae": 0.0664,
+      "rmse": 0.0913,
+      "unit": "Mg/m3"
+    },
+    "OMC_frac": {
+      "r2": 0.784,
+      "mae": 0.0187,
+      "rmse": 0.0268,
+      "unit": "fraction"
+    }
+  },
+  "models": {},
+  "context_columns": [
+    "LL",
+    "PL",
+    "PI",
+    "fines_pct",
+    "sand_pct",
+    "log_energy",
+    "Gs",
+    "MDD_Mgm3",
+    "OMC_frac"
+  ],
+  "context_sha256": "215982c3f3982fe633f30075b306ba5eec6491a922e779722284f54fc0c83a72"
+}

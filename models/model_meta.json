@@ -1,0 +1,48 @@
+{
+  "n_records": 2854,
+  "features": [
+    "LL",
+    "PL",
+    "PI",
+    "fines_pct",
+    "sand_pct",
+    "log_energy",
+    "Gs"
+  ],
+  "params": {
+    "n_estimators": 600,
+    "learning_rate": 0.04,
+    "max_depth": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "min_child_weight": 5,
+    "reg_lambda": 1.0,
+    "objective": "reg:squarederror",
+    "random_state": 0,
+    "n_jobs": 8,
+    "verbosity": 0
+  },
+  "missing_by_design": {
+    "LL": 134,
+    "PL": 134,
+    "sand_pct": 169
+  },
+  "cross_validated": {
+    "MDD_Mgm3": {
+      "r2": 0.818,
+      "mae": 0.0681,
+      "rmse": 0.0929,
+      "unit": "Mg/m3"
+    },
+    "OMC_frac": {
+      "r2": 0.781,
+      "mae": 0.0189,
+      "rmse": 0.027,
+      "unit": "fraction"
+    }
+  },
+  "models": {
+    "MDD_Mgm3": "model_mdd.json",
+    "OMC_frac": "model_omc.json"
+  }
+}

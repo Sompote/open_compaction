@@ -1,0 +1,8 @@
+# Optional: only for `predict.py --model tabpfn`.
+# TabPFN carries no weights of its own here -- it predicts by in-context
+# learning over data/compaction_parameters.csv -- but it does need its
+# pre-trained checkpoint, which the package downloads on first use.
+# Install on top of requirements.txt. Expect minutes per call on CPU.
+-r requirements.txt
+torch==2.2.2
+tabpfn==6.4.1

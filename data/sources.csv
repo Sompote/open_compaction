@@ -1,0 +1,7 @@
+source_key,name,region,doi_or_note,licence,records_raw,records_retained
+openaccess-pdf,Extracted from open-access articles,global,per-record (see reference column),per-article open access,1921,1469
+zenodo:10.5281/zenodo.14251190,Soranzo geotechnical database,Austria,10.5281/zenodo.14251190,CC BY 4.0,448,446
+figshare:10.6084/m9.figshare.28681187,Gunaydin literature compilation,multi-source,10.6084/m9.figshare.28681187,CC BY 4.0,475,417
+zenodo:10.5281/zenodo.20737270,Turkiye geotechnical / CBR dataset,Turkiye,10.5281/zenodo.20737270,CC BY 4.0,361,311
+figshare:10.6084/m9.figshare.32955851,Multi-energy Proctor compilation,multi-source,10.6084/m9.figshare.32955851,CC BY 4.0,206,194
+zenodo:10.5281/zenodo.19242689,"Biopolymer review, untreated parent soils",multi-source,10.5281/zenodo.19242689,CC BY 4.0,17,16

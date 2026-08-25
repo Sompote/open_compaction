@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "An open dataset of soil compaction tests"
+message: "If you use this dataset, please cite it and the original sources listed in data/sources.csv."
+type: dataset
+authors:
+  - family-names: "Youwai"
+    given-names: "Sompote"
+    affiliation: "King Mongkut's University of Technology Thonburi"
+    email: "sompote.you@kmutt.ac.th"
+  - family-names: "Phutthananon"
+    given-names: "Chana"
+    affiliation: "King Mongkut's University of Technology Thonburi"
+abstract: >-
+  2,854 Proctor compaction tests assembled from six public sources, each record
+  complete in the index properties required for modelling and each carrying the
+  compactive energy stated by its source, spanning four Proctor energy levels
+  from 355 to 2,693 kJ/m3 and both sides of the coarse/fine boundary. Released
+  alongside a wider pool of 7,273 quality-controlled records and 90 digitised
+  compaction curves comprising 1,048 measured water-content / dry-density
+  points. Every record carries its originating source so that evaluation can
+  respect provenance. Trained gradient-boosted weights for maximum dry density
+  and optimum moisture content are released with the data, together with a
+  command-line predictor and the out-of-fold accuracy of both.
+keywords:
+  - soil compaction
+  - Proctor test
+  - maximum dry density
+  - optimum moisture content
+  - compactive energy
+  - compaction curve
+  - geotechnical engineering
+  - open data
+  - machine learning
+license: CC-BY-4.0
+date-released: 2026-08-25
+version: "2.1.0"
