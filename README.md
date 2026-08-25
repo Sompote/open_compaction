@@ -176,6 +176,31 @@ converts, so never pass a logarithm. `LL`, `PL` and `sand_pct` may be left
 blank: the boosters were fitted with those gaps present, for the reasons above,
 and route a blank down a learned default branch. Everything else is required.
 
+### How good is it
+
+![TabPFN out-of-fold predictions and feature importance](figures/parity_tabpfn.png)
+
+*Every record predicted once while held out, under random five-fold
+cross-validation on the seven inputs. (a) maximum dry density and (b) optimum
+moisture content, the dashed line being equality and the grey band ±1 mean
+absolute error; points are coloured by compactive effort, with the 101
+non-standard records drawn larger since at 3.5 % of the dataset they would
+otherwise vanish into the standard-effort cloud. (c) mean |SHAP| as a share of
+the total, for both targets. This is Figure 5 of the accompanying paper.*
+
+This is the honest picture: each point is a prediction for a record the model
+did not see. The scatter is what R² 0.823 and 0.784 look like — close enough to
+be useful, wide enough that a single prediction should not be read to three
+decimal places. The panels are TabPFN; the default boosters sit 0.005 behind,
+a gap invisible at this scale.
+
+Two things worth reading off it. The four compactive efforts fall on the same
+line rather than forming separate bands, which is what justifies fitting them as
+one model with energy as an input rather than one model per standard. And the
+error is roughly proportional across the range rather than concentrated at
+either end, so the ±1 MAE band quoted beside every prediction is a fair summary
+wherever your soil sits.
+
 ### What comes back, and what to trust
 
 Each prediction carries the degree of saturation it implies at the peak, and a
@@ -207,11 +232,11 @@ python scripts/build_source_pfn.py   # models/source_pfn.csv
 
 ![Shapley attributions for both released models](figures/shap_attribution.png)
 
-*What each input contributes, for both models this repository ships. (a, d)
-XGBoost, exact TreeSHAP over all 2,854 records; (b, e) TabPFN, permutation
-estimate over 400; (c, f) mean |SHAP| as a share of the total. In the beeswarm
-panels each point is one record, placed by its SHAP value and coloured by the
-feature's own value, low to high. This is Figure 5 of the accompanying paper.*
+*Panel (c) above, opened up and extended to both models. (a, d) XGBoost, exact
+TreeSHAP over all 2,854 records; (b, e) TabPFN, permutation estimate over 400;
+(c, f) mean |SHAP| as a share of the total. In the beeswarm panels each point is
+one record, placed by its SHAP value and coloured by the feature's own value,
+low to high. This is Figure 7 of the accompanying paper.*
 
 Fines content and the liquid limit carry roughly two-thirds of the attribution
 on both targets, and the two models agree on the ordering at a Spearman
