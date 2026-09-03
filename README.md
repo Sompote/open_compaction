@@ -52,7 +52,7 @@ complete in every input the model needs, released as
 | `models/model_mdd.json` | — | **Trained weights for maximum dry density.** Gradient-boosted, fitted on all 2,854 records |
 | `models/model_omc.json` | — | **Trained weights for optimum moisture content.** Same records, same configuration |
 | `models/model_meta.json` | — | Input order, hyperparameters and the out-of-fold accuracy of both, so the weights never travel without their honest performance |
-| `models/source_pfn.csv` | 2,854 | **The TabPFN artefact.** The dataset prepared as the context the model predicts from: the seven inputs in order with energy already logged, plus the two targets, and no identifier column |
+| `models/source_pfn.csv` | 2,854 | **The TabPFN artefact.** The dataset prepared as the context the model predicts from: the six inputs in order with energy already logged, plus the two targets, and no identifier or liquid-limit column |
 | `models/tabpfn_meta.json` | — | The record for that model, which has no weights by construction — the context path, its digest, the input order and the out-of-fold accuracy |
 | `predict.py` | — | **The command-line predictor.** Loads the weights and applies them to soils you supply |
 | `examples/example_soils.csv` | 6 | Worked input for the batch mode of `predict.py` |
@@ -103,9 +103,12 @@ python predict.py --ll 38 --pl 20 --fines 72 --sand 25 --gs 2.70 --effort SP
 
 ```
 soil 1
-  MDD  1.775 Mg/m3    +/- 0.068 out-of-fold MAE
-  OMC  16.90 %          +/- 1.89 out-of-fold MAE
-  degree of saturation at optimum 0.876
+  MDD  1.793 Mg/m3    +/- 0.068 out-of-fold MAE
+  OMC  16.90 %          +/- 1.88 out-of-fold MAE
+  degree of saturation at optimum 0.902
+
+The MAE above is the random-fold figure. For a soil from a source the model
+has not seen, expect 0.088 Mg/m3 and 2.36 % instead (models/*_meta.json, transfer).
 ```
 
 **Many soils.** A CSV carrying the input columns, with `test_standard` or
@@ -122,9 +125,13 @@ accuracy figures to stdout in either mode.
 
 | | `--model xgboost` (default) | `--model tabpfn` |
 |---|---|---|
-| MDD R², out-of-fold | 0.818 at 0.068 Mg/m³ | **0.823 at 0.066** |
-| OMC R², out-of-fold | 0.781 at 1.89 % | **0.784 at 1.87** |
-| Impossible pairs, of 2,854 | 11 | **2** |
+| MDD R², random folds | 0.819 at 0.068 Mg/m³ | **0.824 at 0.066** |
+| OMC R², random folds | 0.783 at 1.88 % | **0.784 at 1.87** |
+| MDD R², grouped folds | 0.722 at 0.088 Mg/m³ | **0.727 at 0.086** |
+| OMC R², grouped folds | 0.681 at 2.36 % | **0.696 at 2.28** |
+| MDD R², source held out | 0.392 at 0.127 Mg/m³ | **0.520 at 0.116** |
+| OMC R², source held out | 0.225 at 3.53 % | **0.614 at 2.76** |
+| Impossible pairs, of 2,854 | 7 | **1** |
 | Time per call | a fraction of a second | **~5 minutes on CPU** |
 | Install | `requirements.txt`, three packages | plus `requirements-tabpfn.txt` — torch, and a checkpoint downloaded on first use |
 
@@ -136,11 +143,11 @@ pass.
 
 **`models/source_pfn.csv` is what it loads**, and stands in the same relation to
 TabPFN as `model_mdd.json` does to the boosters — change it and you have changed
-the model. It is the dataset prepared: the seven inputs in the order the model
+the model. It is the dataset prepared: the six inputs in the order the model
 expects them, compactive energy already converted to its natural logarithm, the
 two targets, the documented gaps carried through as blanks, and deliberately no
-`record_id`, `source` or `group`, so that no identifier can reach the model as a
-feature. `predict.py` checks it against the digest in `models/tabpfn_meta.json`
+`LL`, `record_id`, `source` or `group`, so that neither an identifier nor a
+held-out column can reach the model as a feature. `predict.py` checks it against the digest in `models/tabpfn_meta.json`
 before running, and refuses rather than quoting an accuracy that would describe
 a different model. Rebuild it from the dataset at any time:
 
@@ -150,8 +157,8 @@ python scripts/build_source_pfn.py
 
 The default is the gradient-boosted model because the two are not distinguishable
 in accuracy on these data — 0.005 in R², against a between-fold dispersion of
-0.012 to 0.020 — while they differ by three orders of magnitude in cost. On a
-lean clay the two return 1.775 against 1.788 Mg/m³ and 16.90 against 16.66 %,
+0.006 to 0.017 — while they differ by three orders of magnitude in cost. On a
+lean clay the two return 1.793 against 1.776 Mg/m³ and 16.90 against 16.55 %,
 differences an order of magnitude inside their own error bars. Where the choice
 does matter is physical admissibility: TabPFN implies an impossible degree of
 saturation five times less often, which is why the paper carries it through.
@@ -162,7 +169,7 @@ handful of soils justifies the wait.
 
 | Flag | Column | Unit | |
 |---|---|---|---|
-| `--ll` | `LL` | % | liquid limit; omit for a non-plastic soil |
+| `--ll` | `LL` | % | liquid limit; **not a model input**, used only to derive `PI` |
 | `--pl` | `PL` | % | plastic limit; omit for a non-plastic soil |
 | `--pi` | `PI` | % | plasticity index; **derived as LL − PL** when both are given, so pass it only for a non-plastic soil, as `0` |
 | `--fines` | `fines_pct` | % | passing 0.075 mm; **required** |
@@ -172,27 +179,36 @@ handful of soils justifies the wait.
 | `--energy` | `energy_kJm3` | kJ/m³ | an alternative to `--effort`, for an effort not on the list |
 
 Energy enters the model as its natural logarithm; `predict.py` takes kJ/m³ and
-converts, so never pass a logarithm. `LL`, `PL` and `sand_pct` may be left
-blank: the boosters were fitted with those gaps present, for the reasons above,
-and route a blank down a learned default branch. Everything else is required.
+converts, so never pass a logarithm. `PL` and `sand_pct` may be left blank: the
+boosters were fitted with those gaps present, for the reasons above, and route a
+blank down a learned default branch. Everything else is required.
+
+The model reads six inputs, and the liquid limit is not among them. Only two of
+the three consistency limits are algebraically independent, and carrying the
+third costs 0.041 in R² for density on a source the model has not seen, so `LL`
+is released with the dataset and held out of the mapping. `predict.py` still
+accepts it and uses it to derive `PI` as `LL − PL` and to reject `PL` above
+`LL`. Passing `LL` alone, with no `PL` and no `PI`, therefore no longer informs
+the prediction.
 
 ### How good is it
 
 ![TabPFN out-of-fold predictions and feature importance](figures/parity_tabpfn.png)
 
 *Every record predicted once while held out, under random five-fold
-cross-validation on the seven inputs. (a) maximum dry density and (b) optimum
+cross-validation on the six inputs. (a) maximum dry density and (b) optimum
 moisture content, the dashed line being equality and the grey band ±1 mean
 absolute error; points are coloured by compactive effort, with the 101
 non-standard records drawn larger since at 3.5 % of the dataset they would
 otherwise vanish into the standard-effort cloud. (c) mean |SHAP| as a share of
 the total, for both targets. This is Figure 5 of the accompanying paper.*
 
-This is the honest picture: each point is a prediction for a record the model
-did not see. The scatter is what R² 0.823 and 0.784 look like — close enough to
-be useful, wide enough that a single prediction should not be read to three
-decimal places. The panels are TabPFN; the default boosters sit 0.005 behind,
-a gap invisible at this scale.
+Each point is a prediction for a record the model did not see. The scatter is
+what R² 0.824 and 0.784 look like — close enough to be useful, wide enough that
+a single prediction should not be read to three decimal places. The panels are
+TabPFN; the default boosters sit 0.005 behind, a gap invisible at this scale.
+Read the caveat below before quoting these two numbers: they are random-fold
+figures, and a soil from a source the model has not seen is harder.
 
 Two things worth reading off it. The four compactive efforts fall on the same
 line rather than forming separate bands, which is what justifies fitting them as
@@ -205,21 +221,32 @@ wherever your soil sits.
 
 Each prediction carries the degree of saturation it implies at the peak, and a
 flag when that exceeds unity — the pair then plots above the zero-air-voids line
-and describes a soil that cannot exist. On the released data this happens for
-11 of 2,854 records; it happens more often when the inputs are far from the
+and describes a soil that cannot exist. Under random five-fold
+cross-validation this happens for 7 of the 2,854 records with the boosters and 1
+with TabPFN; it happens more often when the inputs are far from the
 corpus, and inputs outside the range the corpus spans are flagged as
 extrapolation.
 
 **Quote the out-of-fold accuracy, not the fit.** Under random five-fold
-cross-validation the released hyperparameters give R² 0.818 for density at
-0.068 Mg/m³ and 0.781 for the optimum at 1.89 % water content, and TabPFN 0.823
-and 0.784. Those figures are recorded in `models/model_meta.json` and
-`models/tabpfn_meta.json`, and reported alongside every prediction. The weights shipped here were then refitted on all 2,854 records
-with nothing held back, so what they score on their own training data is not an
-estimate of anything. Two further cautions: a grouped split, which respects
-provenance, is roughly 0.10 in R² harder than the random split reported, so
-expect less on a source the model has not seen; and the prediction is of the
-peak alone, not of the curve either side of it.
+cross-validation the released hyperparameters give R² 0.819 for density at
+0.068 Mg/m³ and 0.783 for the optimum at 1.88 % water content, and TabPFN 0.824
+and 0.784. The weights shipped here were then refitted on all 2,854 records with
+nothing held back, so what they score on their own training data is not an
+estimate of anything.
+
+**Then quote the transfer figure instead.** Those random-fold numbers measure
+how well the corpus interpolates within itself: under a random split 96.6 % of
+records share a provenance group with their training fold, and 40.1 % share an
+exact input vector. With folds blocked on the 162 provenance groups, at an
+unchanged training-set size, the boosters give 0.722 and 0.681, and TabPFN 0.727
+and 0.696. With a whole source held out they give 0.392 and 0.225, and TabPFN
+0.520 and 0.614. If your soil comes from a laboratory or a study the corpus does
+not contain, those are the figures that apply.
+
+All three sets are recorded in `models/model_meta.json` and
+`models/tabpfn_meta.json`, under `cross_validated` and `transfer`, and the first
+two are reported alongside every prediction. One further caution: the prediction
+is of the peak alone, not of the curve either side of it.
 
 Regenerate either artefact from the released data at any time:
 
@@ -262,7 +289,7 @@ import pandas as pd, numpy as np
 d = pd.read_csv("data/compaction_parameters.csv")
 d["log_energy"] = np.log(d.energy_kJm3)
 
-X = d[["LL", "PL", "PI", "fines_pct", "sand_pct", "log_energy", "Gs"]]
+X = d[["PL", "PI", "fines_pct", "sand_pct", "log_energy", "Gs"]]
 y_density  = d.MDD_Mgm3      # Mg/m3
 y_moisture = d.OMC_frac      # fraction, multiply by 100 for percent
 ```
@@ -275,8 +302,8 @@ model has not seen; a random split answers a different and easier question, and
 in our hands the two differ by roughly 0.10 in R².
 
 **What to beat.** Under the random five-fold split, the accompanying paper
-reports R² 0.823 for density from TabPFN, 0.818 from the gradient-boosted model
-released here and 0.797 from a multilayer perceptron — three model classes
+reports R² 0.824 for density from TabPFN, 0.819 from the gradient-boosted model
+released here and 0.791 from a multilayer perceptron — three model classes
 within 0.03 of one another, on identical folds. A nested search over nine
 hyperparameters of the ensemble recovered nothing over the values fixed a
 priori. The ceiling looks like a property of the data rather than of the
@@ -345,6 +372,27 @@ points and parameters and exposes 72,849 boreholes through an open API, but a
 random sample of 600 boreholes returned 57 project files containing no
 compaction or Atterberg group whatever. The public export carries borehole logs
 only; laboratory data requires a licence.
+
+## Changes in 2.2.0
+
+The dataset is unchanged. The released model is not.
+
+- **The model now reads six inputs, not seven.** The liquid limit has been
+  removed from the input set. Only two of the three consistency limits are
+  algebraically independent, and carrying the third costs 0.041 in R² for
+  density on a source the model has not seen. `LL` is still released with the
+  dataset, and `predict.py` still accepts it to derive `PI`, but it no longer
+  reaches the model. Code that loads `models/model_mdd.json` directly must drop
+  the `LL` column, in the order given in `docs/DATA_DICTIONARY.md`.
+- **New weights.** `models/model_mdd.json`, `models/model_omc.json` and
+  `models/source_pfn.csv` were regenerated on the six inputs by
+  `scripts/train_model.py` and `scripts/build_source_pfn.py`.
+- **Transfer accuracy is now recorded and reported.** `model_meta.json` and
+  `tabpfn_meta.json` gained a `transfer` block holding the grouped-fold and
+  source-held-out scores, and a `zav_violations` count. `predict.py` prints the
+  grouped figure beside the random one, because the random figure is an
+  interpolation figure and overstates what to expect on a new soil.
+- Accuracy figures throughout were refreshed to the six-input model.
 
 ## Limitations
 

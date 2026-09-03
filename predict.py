@@ -16,13 +16,21 @@ Machine-readable output, for either mode:
 
     python predict.py --ll 38 --pl 20 --fines 72 --gs 2.70 --effort SP --json
 
-Inputs are the seven of Section 4.1 of the paper: LL, PL, PI, fines, sand,
-compactive energy and Gs. Energy enters the model as its natural logarithm; this
-script takes it in kJ/m3 and does the conversion, so never pass a logarithm.
-PI is derived as LL - PL when both are given. LL, PL and sand may be omitted:
-the boosters were fitted with those gaps present and route a blank down a
-learned default branch, which is what the 134 non-plastic and 169 no-gradation
-records of the corpus taught them to do. Every other input is required.
+The model reads the six inputs of Section 4.1 of the paper: PL, PI, fines, sand,
+compactive energy and Gs. Energy enters as its natural logarithm; this script
+takes it in kJ/m3 and does the conversion, so never pass a logarithm.
+
+The liquid limit is accepted but is not a model input. Only two of the three
+consistency limits are algebraically independent, and the paper measures the
+third to cost accuracy on a source the model has not seen, so LL is released
+with the dataset and held out of the mapping. It is used here for two things
+only: PI is derived as LL - PL when both are given, and PL above LL is rejected
+as impossible. Passing LL alone therefore no longer informs the prediction.
+
+PL and sand may be omitted: the boosters were fitted with those gaps present and
+route a blank down a learned default branch, which is what the 134 non-plastic
+and 169 no-gradation records of the corpus taught them to do. Every other input
+is required.
 
 Two models are available. `--model xgboost`, the default, uses the boosters in
 `models/`. `--model tabpfn` instead reproduces the paper's leading model, which
@@ -38,11 +46,17 @@ own error bars, which is the paper's point: the 0.005 in R2 between them is not
 a difference this dataset can resolve.
 
 The reported accuracy is always out-of-fold, from the paper, and is printed
-beside every prediction: R2 0.818 for density at 0.068 Mg/m3 and 0.781 for the
-optimum at 1.89 % water content for the boosters, 0.823 at 0.066 and 0.784 at
-1.87 for TabPFN. Those are the numbers to quote for a soil the model has not
-seen. The in-sample fit of weights trained on every record is not an estimate of
-anything.
+beside every prediction: R2 0.819 for density at 0.068 Mg/m3 and 0.783 for the
+optimum at 1.88 % water content for the boosters, 0.824 at 0.066 and 0.784 at
+1.87 for TabPFN. The in-sample fit of weights trained on every record is not an
+estimate of anything.
+
+Those are random-fold figures, and under a random split 96.6 % of records share
+a provenance group with their training fold. For a soil from a laboratory or a
+study the corpus does not contain, quote the `transfer` block of the metadata
+instead: 0.722 and 0.681 for the boosters with folds blocked on the 162
+provenance groups, 0.392 and 0.225 with a whole source held out, against 0.727
+and 0.696, and 0.520 and 0.614, for TabPFN.
 """
 import argparse
 import hashlib
@@ -209,6 +223,7 @@ def predict(d, models, meta):
 def report(d, out, meta):
     """Human-readable output, one block per soil."""
     cv = meta["cross_validated"]
+    grouped = meta.get("transfer", {}).get("grouped_5fold")
     for i, r in out.iterrows():
         label = d.get("name", pd.Series(dtype=object)).get(i) or f"soil {i + 1}"
         print(f"\n{label}")
@@ -220,6 +235,11 @@ def report(d, out, meta):
               + ("" if r.admissible else "   INADMISSIBLE: above the zero-air-voids line"))
         if r.extrapolation:
             print(f"  extrapolation: {r.extrapolation}")
+    if grouped:
+        print(f"\nThe MAE above is the random-fold figure. For a soil from a source "
+              f"the model\nhas not seen, expect {grouped['MDD_Mgm3']['mae']:.3f} Mg/m3 "
+              f"and {100 * grouped['OMC_frac']['mae']:.2f} % instead "
+              f"(models/*_meta.json, transfer).")
 
 
 def main():
@@ -234,7 +254,7 @@ def main():
     p.add_argument("--csv", help="input file carrying the columns of INPUTS")
     p.add_argument("--out", help="write predictions here instead of to the screen")
     p.add_argument("--json", action="store_true", help="emit JSON on stdout")
-    p.add_argument("--ll", type=float, help="liquid limit, %%")
+    p.add_argument("--ll", type=float, help="liquid limit, %%; not a model input, used only to derive PI")
     p.add_argument("--pl", type=float, help="plastic limit, %%")
     p.add_argument("--pi", type=float, help="plasticity index, %%; derived from LL - PL if omitted")
     p.add_argument("--fines", type=float, help="fraction passing 0.075 mm, %%")

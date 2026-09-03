@@ -1,7 +1,6 @@
 {
   "n_records": 2854,
   "features": [
-    "LL",
     "PL",
     "PI",
     "fines_pct",
@@ -23,23 +22,59 @@
     "verbosity": 0
   },
   "missing_by_design": {
-    "LL": 134,
     "PL": 134,
     "sand_pct": 169
   },
   "cross_validated": {
     "MDD_Mgm3": {
-      "r2": 0.818,
+      "r2": 0.819,
       "mae": 0.0681,
-      "rmse": 0.0929,
+      "rmse": 0.0925,
       "unit": "Mg/m3"
     },
     "OMC_frac": {
-      "r2": 0.781,
-      "mae": 0.0189,
-      "rmse": 0.027,
+      "r2": 0.783,
+      "mae": 0.0188,
+      "rmse": 0.0269,
       "unit": "fraction"
     }
+  },
+  "transfer": {
+    "grouped_5fold": {
+      "note": "folds blocked on the 162 provenance groups, same training-set size",
+      "MDD_Mgm3": {
+        "r2": 0.722,
+        "mae": 0.0877,
+        "rmse": 0.1146,
+        "unit": "Mg/m3"
+      },
+      "OMC_frac": {
+        "r2": 0.681,
+        "mae": 0.0236,
+        "rmse": 0.0325,
+        "unit": "fraction"
+      }
+    },
+    "leave_one_source_out": {
+      "note": "each of the six sources predicted by a model trained on the other five",
+      "MDD_Mgm3": {
+        "r2": 0.392,
+        "mae": 0.1267,
+        "rmse": 0.1695,
+        "unit": "Mg/m3"
+      },
+      "OMC_frac": {
+        "r2": 0.225,
+        "mae": 0.0353,
+        "rmse": 0.0507,
+        "unit": "fraction"
+      }
+    }
+  },
+  "zav_violations": {
+    "random_5fold": 7,
+    "grouped_5fold": 38,
+    "leave_one_source_out": 8
   },
   "models": {
     "MDD_Mgm3": "model_mdd.json",

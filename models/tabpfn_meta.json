@@ -4,7 +4,6 @@
   "context": "models/source_pfn.csv",
   "context_records": 2854,
   "features": [
-    "LL",
     "PL",
     "PI",
     "fines_pct",
@@ -17,13 +16,12 @@
     "random_state": 0
   },
   "missing_by_design": {
-    "LL": 134,
     "PL": 134,
     "sand_pct": 169
   },
   "cross_validated": {
     "MDD_Mgm3": {
-      "r2": 0.8235,
+      "r2": 0.824,
       "mae": 0.0664,
       "rmse": 0.0913,
       "unit": "Mg/m3"
@@ -37,7 +35,6 @@
   },
   "models": {},
   "context_columns": [
-    "LL",
     "PL",
     "PI",
     "fines_pct",
@@ -47,5 +44,42 @@
     "MDD_Mgm3",
     "OMC_frac"
   ],
-  "context_sha256": "215982c3f3982fe633f30075b306ba5eec6491a922e779722284f54fc0c83a72"
+  "context_sha256": "381748710d6c9a0d4a4876f6e45effe52c1b387817da999a3737c1d0c9617e66",
+  "transfer": {
+    "grouped_5fold": {
+      "note": "folds blocked on the 162 provenance groups, same training-set size",
+      "MDD_Mgm3": {
+        "r2": 0.727,
+        "mae": 0.0858,
+        "rmse": 0.1136,
+        "unit": "Mg/m3"
+      },
+      "OMC_frac": {
+        "r2": 0.696,
+        "mae": 0.0228,
+        "rmse": 0.0318,
+        "unit": "fraction"
+      }
+    },
+    "leave_one_source_out": {
+      "note": "each of the six sources predicted by a model trained on the other five",
+      "MDD_Mgm3": {
+        "r2": 0.52,
+        "mae": 0.1162,
+        "rmse": 0.1506,
+        "unit": "Mg/m3"
+      },
+      "OMC_frac": {
+        "r2": 0.614,
+        "mae": 0.0276,
+        "rmse": 0.0358,
+        "unit": "fraction"
+      }
+    }
+  },
+  "zav_violations": {
+    "random_5fold": 1,
+    "grouped_5fold": 0,
+    "leave_one_source_out": 41
+  }
 }

@@ -173,13 +173,18 @@ Two gradient-boosted models, one per target, fitted on all 2,854 records of
 
 | Position | Field | Unit | Note |
 |---|---|---|---|
-| 1 | `LL` | % | May be blank; 134 training records are |
-| 2 | `PL` | % | May be blank; the same 134 |
-| 3 | `PI` | % | Required. `0` denotes non-plastic |
-| 4 | `fines_pct` | % | Required |
-| 5 | `sand_pct` | % | May be blank; 169 training records are |
-| 6 | `log_energy` | ln(kJ/m³) | **The natural logarithm of `energy_kJm3`**, not the energy itself |
-| 7 | `Gs` | — | Required |
+| 1 | `PL` | % | May be blank; 134 training records are |
+| 2 | `PI` | % | Required. `0` denotes non-plastic |
+| 3 | `fines_pct` | % | Required |
+| 4 | `sand_pct` | % | May be blank; 169 training records are |
+| 5 | `log_energy` | ln(kJ/m³) | **The natural logarithm of `energy_kJm3`**, not the energy itself |
+| 6 | `Gs` | — | Required |
+
+`LL` is **not** a model input. Only two of the three consistency limits are
+algebraically independent, and carrying the third costs 0.041 in R² for density
+on a source the model has not seen, so the liquid limit is released with the
+dataset and held out of the mapping. `predict.py` still accepts it, and uses it
+only to derive `PI` as `LL - PL` and to reject `PL` above `LL`.
 
 The order matters: the boosters carry no column names, so a permuted input
 produces a confident and wrong answer rather than an error. `predict.py` builds
@@ -191,37 +196,39 @@ the recorded order is the one above.
 | Field | Description |
 |---|---|
 | `n_records` | Records the weights were fitted on; 2,854, with nothing held back |
-| `features` | The seven inputs, in the order above |
+| `features` | The six inputs, in the order above |
 | `params` | The XGBoost hyperparameters, fixed a priori rather than searched |
 | `missing_by_design` | The documented gaps present during fitting, by column |
-| `cross_validated` | **The honest accuracy.** R², MAE and RMSE per target from random five-fold cross-validation of this configuration, each computed over the pooled out-of-fold predictions of all 2,854 records. Not from the weights shipped here, which saw every record |
+| `cross_validated` | R², MAE and RMSE per target from random five-fold cross-validation of this configuration, each computed over the pooled out-of-fold predictions of all 2,854 records. Not from the weights shipped here, which saw every record. **This is an interpolation figure**: under a random split 96.6 % of records share a provenance group with their training fold |
+| `transfer` | **The figure to quote for a new soil.** The same configuration scored with folds blocked on the 162 provenance groups, and with each of the six sources held out in turn |
+| `zav_violations` | Predicted pairs implying a degree of saturation above the zero-air-voids line, out of 2,854, under each design. MDD and OMC are predicted independently, so nothing forbids this |
 | `models` | Target to weight file |
 
-`cross_validated` reports `OMC_frac` in the unit of the column, a decimal
-fraction: MAE 0.0189 is 1.89 % water content.
+`cross_validated` and `transfer` report `OMC_frac` in the unit of the column, a
+decimal fraction: MAE 0.0188 is 1.88 % water content.
 
-`tabpfn_meta.json` carries the same `features`, `missing_by_design` and
-`cross_validated` fields, in the same units, plus `context` and
-`context_records`. `predict.py` refuses to run the TabPFN backend if the context
+`tabpfn_meta.json` carries the same `features`, `missing_by_design`,
+`cross_validated`, `transfer` and `zav_violations` fields, in the same units,
+plus `context` and `context_records`. `predict.py` refuses to run the TabPFN backend if the context
 file no longer holds the recorded number of records, since the accuracy
 alongside the prediction would then describe a different dataset.
 
 ### `models/source_pfn.csv` — the TabPFN context
 
-Nine columns, 2,854 rows, built by `scripts/build_source_pfn.py` from
+Eight columns, 2,854 rows, built by `scripts/build_source_pfn.py` from
 `data/compaction_parameters.csv`.
 
 | Position | Field | Unit | Note |
 |---|---|---|---|
-| 1–7 | `LL`, `PL`, `PI`, `fines_pct`, `sand_pct`, `log_energy`, `Gs` | as above | The model inputs, in the order the model expects. `log_energy` is **already** ln(kJ/m³) — do not log it again |
-| 8 | `MDD_Mgm3` | Mg/m³ | Context target |
-| 9 | `OMC_frac` | fraction | Context target |
+| 1–6 | `PL`, `PI`, `fines_pct`, `sand_pct`, `log_energy`, `Gs` | as above | The model inputs, in the order the model expects. `log_energy` is **already** ln(kJ/m³) — do not log it again |
+| 7 | `MDD_Mgm3` | Mg/m³ | Context target |
+| 8 | `OMC_frac` | fraction | Context target |
 
-The 134 blank `LL`/`PL` and 169 blank `sand_pct` are carried through as blanks:
+The 134 blank `PL` and 169 blank `sand_pct` are carried through as blanks:
 TabPFN ingests them directly, and imputing here would silently change the model
 the paper reports.
 
-No `record_id`, `source`, `group` or `test_standard`, by design — an identifier
+No `LL`, `record_id`, `source`, `group` or `test_standard`, by design — an identifier
 column reaching the model as a feature is the failure this omission prevents.
 Rows follow the order of `data/compaction_parameters.csv`, which is how the two
 are matched; `record_id` cannot serve, being shared by 170 rows.

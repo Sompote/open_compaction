@@ -19,7 +19,7 @@ import pandas as pd
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURES = ["LL", "PL", "PI", "fines_pct", "sand_pct", "energy_kJm3", "Gs"]
 # what the boosters were fitted on: energy as its natural logarithm
-MODEL_FEATURES = ["LL", "PL", "PI", "fines_pct", "sand_pct", "log_energy", "Gs"]
+MODEL_FEATURES = ["PL", "PI", "fines_pct", "sand_pct", "log_energy", "Gs"]
 fails = []
 
 
@@ -114,7 +114,7 @@ def tabpfn_context(d, models):
 
     c = pd.read_csv(path)
     check(list(c.columns) == tab["context_columns"],
-          f"{tab['context']} carries the seven inputs and two targets, in order")
+          f"{tab['context']} carries the six inputs and two targets, in order")
     check(len(c) == len(d), f"{tab['context']} holds {len(d)} records")
     # no identifier may reach the model as a feature
     check(not ({"record_id", "source", "group", "test_standard"} & set(c.columns)),
@@ -170,7 +170,7 @@ def weights(d):
         r2 = 1.0 - ((y - p) ** 2).sum() / ((y - y.mean()) ** 2).sum()
         # in-sample, and therefore not an accuracy: the threshold is set to
         # catch weights wired to the wrong columns, which score 0.68 or worse
-        # under any permutation of the seven, not to judge the model
+        # under any permutation of the six, not to judge the model
         check(r2 > 0.85, f"models/{name} reproduces its training target, R2 {r2:.3f}")
         check(meta["cross_validated"][target]["r2"] < r2,
               f"the recorded out-of-fold R2 for {target} is below the in-sample fit")
